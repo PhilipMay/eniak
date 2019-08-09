@@ -93,10 +93,13 @@ blog_authors = {
 # sidebars that link to author and location archive pages.
 html_sidebars = {
     '**': [ 'about.html',
-            'postcard.html', 'navigation.html',
-            'recentposts.html', 'tagcloud.html',
-            'categories.html',  'archives.html',
+            'postcard.html', 
             'searchbox.html',
+            'navigation.html',
+            'recentposts.html', 
+            #'tagcloud.html',
+            'categories.html',  
+            #'archives.html',
             ],
     }
 

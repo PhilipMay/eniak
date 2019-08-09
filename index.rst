@@ -27,9 +27,8 @@ YouTube Demo
 
 ..  youtube:: 4UfpkRFPIJk
 
-TOC
----
-
 .. toctree::
+   :hidden:
+
    about.rst
    it/conda-how-to

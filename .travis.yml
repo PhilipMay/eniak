@@ -2,7 +2,12 @@ language: python
 
 python:
   - '3.6'
-  
+
+addons:
+  apt:
+    packages:
+    - lftp
+
 script:
   - ablog build
 

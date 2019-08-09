@@ -26,4 +26,5 @@ Here is a list of most recent posts:
    :hidden:
 
    about.rst
+   it/conda-how-to
 

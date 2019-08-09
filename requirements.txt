@@ -1,1 +1,2 @@
 ablog
+git+https://github.com/sphinx-contrib/youtube.git

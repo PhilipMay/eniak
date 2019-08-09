@@ -22,6 +22,14 @@ Here is a list of most recent posts:
    Posts are excluded from this directive so that they aren't double listed
    in the sidebar both under Navigation and Recent Posts.
 
+YouTube Demo
+------------
+
+..  youtube:: 4UfpkRFPIJk
+
+TOC
+---
+
 .. toctree::
    :hidden:
 

@@ -14,8 +14,3 @@ env:
 script:
   - ablog build
   - lftp sftp://eniaka_1:${FTP_PWD}@eniak.de -e "set sftp:auto-confirm yes; mirror -R _website / ; quit"
-
-# set ftp:ssl-allow no;
-# set ssl:verify-certificate false;
-#after_success:
-#- lftp sftp://eniaka_1:${FTP_PWD}@eniak.de -e "set sftp:auto-confirm yes; mirror -R _website / ; quit"

@@ -16,4 +16,4 @@ env:
 
 # set ftp:ssl-allow no;
 after_success:
-- lftp sftp://eniaka_1:${FTP_PWD}@eniak.de -e "set fish:auto-confirm true; mirror -R _website / ; quit"
+- lftp sftp://eniaka_1:${FTP_PWD}@eniak.de -e "set fish:auto-confirm true; set ssl:verify-certificate false; mirror -R _website / ; quit"

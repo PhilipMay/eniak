@@ -6,15 +6,16 @@ python:
 before_install:
   - sudo apt-get install -y lftp
 
-script:
-  - ablog build
-
 env:
   global:
     # FTP_PWD
     secure: iyBQzu5sJgsMQcGDl4xXme3IADWCjy6RA6v909GemSzusHdWf5Rcm/zeIm5QRvYy0Lso8ntEyyZ0joEmO1ugHwcHVo7swM/wXW4ArnqcPu9/J9n4YIiZ3oJYZURzQEPdthO7blPPMYYIinn/dSbPhO+MSB3flLGK8njgf+owkgyTicIMqGWCTzHi2OhM9jbfAJeUhe7piZmrVt67hn4muyllS5zp39tWwbTG612aTz3cyl5vuH7ym4O/54eLBOwIAez0B6BdyJ31ycHi2kxBNFAZS6q8WtFTvEkS7fMHftLG8+Jb7xDXJIDAAhUWoGMsNsZx+TZbadCVsBdz/13rAZ7BlyBTdVaneu8MzcbLeBjIMU/raO9yD9iBcrrtv2DpCRmWZ5qsg7CF2IESSb9+gnwpxuB+D+tQOtRea4SeagkqGXYlz1Ezate3pYC+qvSAyLWR9eCq/20qKRtP2T7eBDVlOvTWt+j8Id4YqTKWQNXxIHMyi/r0gJqASlxi0SYqGc+RTC4h6rRXQcpba5Ze0/BNCgkfcNxFtLp5vG1MrNZUrwKVk7LR+Nmzf4zQBrAVs4At97zSsH4cuY0KVdBrhOOM+dA7Zew8wwlUF4scLb5p8DH3pu9Mtri5WoZ+77BZl1iA2nreYfIio+kFLcwavg7XZjdxIfktrMucyiSvEgc=
 
+script:
+  - ablog build
+  - lftp sftp://eniaka_1:${FTP_PWD}@eniak.de -e "set sftp:auto-confirm yes; mirror -R _website / ; quit"
+
 # set ftp:ssl-allow no;
 # set ssl:verify-certificate false;
-after_success:
-- lftp sftp://eniaka_1:${FTP_PWD}@eniak.de -e "set sftp:auto-confirm yes; mirror -R _website / ; quit"
+#after_success:
+#- lftp sftp://eniaka_1:${FTP_PWD}@eniak.de -e "set sftp:auto-confirm yes; mirror -R _website / ; quit"

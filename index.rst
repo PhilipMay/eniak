@@ -29,6 +29,7 @@ YouTube Demo
 
 .. toctree::
    :hidden:
+   :glob:
 
    about.rst
-   it/conda-how-to
+   it/*

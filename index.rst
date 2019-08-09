@@ -33,3 +33,4 @@ YouTube Demo
 
    about.rst
    it/*
+   wiki-old.rst

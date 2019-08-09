@@ -31,8 +31,5 @@ TOC
 ---
 
 .. toctree::
-   :hidden:
-
    about.rst
    it/conda-how-to
-

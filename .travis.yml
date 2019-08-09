@@ -3,10 +3,8 @@ language: python
 python:
   - '3.6'
 
-addons:
-  apt:
-    packages:
-    - lftp
+before_install:
+  - sudo apt-get install -y lftp
 
 script:
   - ablog build

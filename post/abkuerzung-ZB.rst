@@ -25,8 +25,4 @@ In HTML wird dieses durch die Eingabe von ``&nbsp;`` erreicht.
 
 Gleiches gilt übrigens auch zum Beispiel für „u. a.“ und „d. h.“.
 
-.. todo::
-
-   Fix this image
-
-.. |image0| image:: /blog/z.-b.-in-word.png
+.. image:: /_static/post/z.-b.-in-word.png

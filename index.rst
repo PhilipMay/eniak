@@ -10,11 +10,6 @@ Here is a list of most recent posts:
    :excerpts:
    :format: {title}
 
-YouTube Demo
-------------
-
-..  youtube:: 4UfpkRFPIJk
-
 TOC
 ---
 
@@ -27,3 +22,4 @@ TOC
    ff.rst
    post.rst
    wiki-old.rst
+   todo.rst

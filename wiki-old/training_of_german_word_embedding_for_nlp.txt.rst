@@ -126,6 +126,10 @@ Perplexity at Training
 
 We have overfitting at epoch number 15 - so we are done with training.
 
+.. todo::
+
+   Fix this image
+
 |image0|
 
 .. |image0| image:: /it/perplexity-german-bilm.png

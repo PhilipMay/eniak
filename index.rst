@@ -31,4 +31,5 @@ TOC
    about.rst
    it.rst
    ff.rst
+   post.rst
    wiki-old.rst

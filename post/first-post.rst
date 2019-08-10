@@ -1,4 +1,3 @@
-
 .. post:: Aug 09, 2019
 
 First Post

@@ -18,14 +18,11 @@ Leerzeichen <http://de.wikipedia.org/wiki/Gesch%C3%BCtztes_Leerzeichen>`__
 zu verwenden. In Microsoft Word wird dieses Zeichen durch „Shift +
 Steuerung + Space“ eingefügt (siehe Bild unten).
 
-=========================================
-|image0|
 Darstellung von „z. B.“ in Microsoft Word
-=========================================
+-----------------------------------------
 
 In HTML wird dieses durch die Eingabe von ``&nbsp;`` erreicht.
 
 Gleiches gilt übrigens auch zum Beispiel für „u. a.“ und „d. h.“.
 
 .. |image0| image:: /blog/z.-b.-in-word.png
-

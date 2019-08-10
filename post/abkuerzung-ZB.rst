@@ -1,4 +1,6 @@
-Die Abkürzung von „zum Beispiel“
+.. post:: 12 01, 2018
+
+Die Abkürzung von "zum Beispiel"
 ================================
 
 Wie wird eigentlich „zum Beispiel“ richtig abgekürzt? An vielen Stellen

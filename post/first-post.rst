@@ -1,9 +1,5 @@
 
-.. Eniak post example, created by `ablog start` on Aug 09, 2019.
-
 .. post:: Aug 09, 2019
-   :tags: atag
-   :author: Philip May
 
 First Post
 ==========

@@ -162,9 +162,5 @@ Nummer 11 - AVM FRITZ!Box 4020
    wurden entfernt
 -  Map Link: https://freifunk-bs.de/map/#!v:m;n:5c49793bc5ed
 
-.. todo::
-
-   Fix this image
-
-.. |image0| image:: /ff/passiv-poe-umbau-fritz-box-4020.jpg
+.. image:: /_static/ff/passiv-poe-umbau-fritz-box-4020.jpg
    :width: 400px

@@ -5,3 +5,7 @@ ul.postlist-style-none > li {
 div.admonition {
     background-color: #FFB;
 }
+
+div.sphinxsidebar ul li {
+    margin-bottom: 10px;
+}

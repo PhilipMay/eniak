@@ -17,7 +17,4 @@ Windows Tool. Es startet automatisch beim Booten. Mit der
 Tastenkombination "Windows+V" kann man dann den Text unformatiert aus
 der Zwischenablage einfügen. Das Konfigurationsmenü sieht so aus:
 
-|image0|
-
-.. |image0| image:: /blog/puretext.jpg
-
+.. image:: /_static/post/puretext.jpg

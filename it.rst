@@ -1,8 +1,8 @@
-Old Wiki IT Pages
+IT Pages
 =================================
 
 .. toctree::
    :glob:
    :titlesonly:
 
-   wiki-old/*
+   it/*

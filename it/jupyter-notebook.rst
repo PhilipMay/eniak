@@ -4,8 +4,8 @@ Jupyter Notebook
 Using Jupyter with Conda
 ------------------------
 
-<WRAP center round tip 60%> At the moment (Aug. 6. 2019) this problem
-seems to be fixed in jupyter. No other software is needed. </WRAP>
+At the moment (Aug. 6. 2019) this problem
+seems to be fixed in jupyter. No other software is needed.
 
 When using Jupyter Notebook with Conda there `might be
 problems <https://stackoverflow.com/questions/39604271/conda-environments-not-showing-up-in-jupyter-notebook/44786736>`__.
@@ -36,7 +36,4 @@ to run.
 also see:
 https://nbconvert.readthedocs.io/en/latest/execute_api.html#executing-notebooks-from-the-command-line
 
-<WRAP center round important 60%> If you have timeout problems - this
-might help:
-``<nowiki>pip install git+https://github.com/jupyter/nbconvert.git</nowiki>``
-</WRAP>
+If you have timeout problems - this might help: ``pip install git+https://github.com/jupyter/nbconvert.git``

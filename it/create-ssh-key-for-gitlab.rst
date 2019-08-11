@@ -1,4 +1,4 @@
-How-To create SSH Key for GitLab
+Create SSH Key for GitLab
 ================================
 
 Voraussetzungen unter Windows

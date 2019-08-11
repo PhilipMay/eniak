@@ -12,7 +12,7 @@ Services
 List enabled Services
 ~~~~~~~~~~~~~~~~~~~~~
 
-``<nowiki>systemctl list-unit-files --state=enabled</nowiki>``
+``systemctl list-unit-files --state=enabled``
 
 Package Management
 ------------------
@@ -30,4 +30,4 @@ List Content of a .deb File
 List installed packages
 ~~~~~~~~~~~~~~~~~~~~~~~
 
-``<nowiki>apt list --installed</nowiki>``
+``apt list --installed``

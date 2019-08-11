@@ -1,4 +1,4 @@
-Python Docstrings How-To
+Python Docstrings How-to
 ========================
 
 Python docstrings can be written in many different formats. An overview

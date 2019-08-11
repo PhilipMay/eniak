@@ -18,4 +18,3 @@ Un-Split a file
 .. code:: bash
 
    cat <file_to_split>-part-* > <file_to_split>
-

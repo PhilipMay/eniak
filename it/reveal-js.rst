@@ -18,13 +18,13 @@ Place this as a ``section`` block. This needs reveal.js to run in a Node.js serv
 
 .. code-block:: html
 
-<section data-markdown="example.md"
-         data-separator="^\n\n\n"
-         data-separator-vertical="^\n\n"
-         data-separator-notes="^Note:"
-         data-charset="iso-8859-15">
-    <!--
-        Note that Windows uses `\r\n` instead of `\n` as its linefeed character.
-        For a regex that supports all operating systems, use `\r?\n` instead of `\n`.
-    -->
-</section>
+   <section data-markdown="example.md"
+            data-separator="^\n\n\n"
+            data-separator-vertical="^\n\n"
+            data-separator-notes="^Note:"
+            data-charset="iso-8859-15">
+       <!--
+           Note that Windows uses `\r\n` instead of `\n` as its linefeed character.
+           For a regex that supports all operating systems, use `\r?\n` instead of `\n`.
+       -->
+   </section>

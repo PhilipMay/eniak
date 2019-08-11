@@ -16,7 +16,7 @@ Images
 -  Labeled Faces in the Wild: http://vis-www.cs.umass.edu/lfw/
 
 Object Detection
-~~~~~~~~~~~~~~~~
+^^^^^^^^^^^^^^^^
 
 -  Parking Lot Database:
    https://web.inf.ufpr.br/vri/databases/parking-lot-database/

@@ -115,11 +115,6 @@ Weitere Plugins installieren
 
 -  "move" installieren: https://www.dokuwiki.org/plugin:move
 
-DokuWiki konfigurieren
-----------------------
-
-<WRAP center round todo 60%> Inhalt fehlt </WRAP>
-
 Noch offen / Todo
 -----------------
 

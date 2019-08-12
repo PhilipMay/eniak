@@ -1,14 +1,6 @@
 Machine Learning
 ================
 
--  `Besonderheiten bei unausgewogenen Trainingsdaten <Besonderheiten bei unausgewogenen Trainingsdaten>`__
--  `Tensorflow How-To <Tensorflow How-To>`__
--  `Object Detection <Object Detection>`__
--  `Install CUDA on Ubuntu <Install CUDA on Ubuntu>`__
--  `GPU Infos <GPU Infos>`__
--  `Machine Learning at AWS <Machine Learning at AWS>`__
--  `Tensorflow and Keras <Tensorflow and Keras>`__
-
 Computer vision
 ---------------
 
@@ -44,7 +36,7 @@ Natural Language Processing (NLP)
 
 -  `Training of German Word Embedding for NLP <Training of German Word Embedding for NLP>`__
 -  `Creating a big German Dataset as a Reference for NLP Experiments <Creating a big German Dataset as a Reference for NLP Experiments>`__
--  `fastText <fastText>`__
+-  :doc:`fastText </it/fasttext>`
 
 Tools / Libs
 ------------
@@ -60,9 +52,9 @@ Tools / Libs
    https://joblib.readthedocs.io/en/latest/
 -  DESlib - ensemble learning library:
    https://deslib.readthedocs.io/en/latest/
--  `SHAP <SHAP>`__ (SHapley Additive exPlanations)
+-  :doc:`SHAP (SHapley Additive exPlanations) </it/shap>`
 -  Trees and Boosting
 
-   -  `XGBoost <XGBoost>`__
-   -  `LightGBM <LightGBM>`__
+   -  :doc:`XGBoost </it/xgboost>`
+   -  :doc:`LightGBM </it/lightgbm>`
    -  https://catboost.ai/

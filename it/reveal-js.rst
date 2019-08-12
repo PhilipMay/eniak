@@ -45,4 +45,4 @@ Keyboard Shortcuts
 - ``ESC``, ``O``: Slide overview / Escape from full-screen
 - ``S``: Speaker notes view
 - ``?``: Show keyboard shortcuts
-- ``alt`` + click: Zoom in. Repeat to zoom back out.
+- ``alt`` + ``click``: Zoom in. Repeat to zoom back out.

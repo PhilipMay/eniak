@@ -11,8 +11,6 @@ Links
 -  Braunschweig
 
    -  `Freifunk Braunschweig <https://freifunk-bs.de/>`__
-   -  `Freifunk Braunschweig
-      Wiki <https://wiki.freifunk-bs.de/index.php?title=Main_Page>`__
    -  `Freifunk Firmware
       Braunschweig <http://firmware.freifunk-bs.de/>`__
    -  `Freifunk Braunschweig Karte <https://freifunk-bs.de/map/>`__
@@ -23,17 +21,18 @@ Links
 Router
 ------
 
-Devices with ≤4MB flash and/or ≤32MB
-ram will work but they will be very limited (usually they can't install
-or run additional packages) because they have low RAM and flash space.
-Consider this when choosing a device to buy, or when deciding to flash
-OpenWrt on your device because it is listed as supported.
-`Quelle <https://openwrt.org/supported_devices/432_warning>`__
+.. warning::
+   Devices with ≤4MB flash and/or ≤32MB
+   ram will work but they will be very limited (usually they can't install
+   or run additional packages) because they have low RAM and flash space.
+   Consider this when choosing a device to buy, or when deciding to flash
+   OpenWrt on your device because it is listed as supported.
+   Also see: https://openwrt.org/supported_devices/432_warning
 
 TP-Link TL-WR841N/ND
 ~~~~~~~~~~~~~~~~~~~~
 
--  `TP-Link TL-WR841N & TL-WR841ND </ff/TP-Link TL-WR841N & TL-WR841ND>`__
+-  :doc:`TP-Link TL-WR841N & TL-WR841ND </ff/tp-link-tl-wr841n-tl-wr841nd>`
 -  Speicher: 4MB Flash, 32MB RAM :!:
 -  Aufgrund des relativ kleinen 4MB Flash-Speichers ist die weitere
    Kompabilität zu zukünftigen Updates offen

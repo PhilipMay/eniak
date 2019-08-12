@@ -90,9 +90,9 @@ Squash: Clean dirty commit history
 To clean a dirty commit history (before doing a pull request) you can do
 a squash.
 
-<WRAP important> Waring: Do not rebase commits that exist outside of
+Waring: Do not rebase commits that exist outside of
 your repository. At least do not rebase branches where others are
-working on. </WRAP>
+working on.
 
 Lets say you want to fix up the last 5 commits you do this:
 

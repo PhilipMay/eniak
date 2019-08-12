@@ -6,7 +6,7 @@ Links
 
 -  `Freifunk <https://freifunk.net/>`__
 -  `Freifunk Forum <https://forum.freifunk.net/>`__
--  `Meine Freifunk Hardware <Meine Freifunk Hardware>`__
+-  :doc:`Meine Freifunk Hardware <meine-freifunk-hardware>`
 -  `Pico Peering Agreement <http://picopeer.net/>`__
 -  Braunschweig
 
@@ -23,12 +23,12 @@ Links
 Router
 ------
 
-<WRAP center round important 60%> Devices with ≤4MB flash and/or ≤32MB
+Devices with ≤4MB flash and/or ≤32MB
 ram will work but they will be very limited (usually they can't install
 or run additional packages) because they have low RAM and flash space.
 Consider this when choosing a device to buy, or when deciding to flash
 OpenWrt on your device because it is listed as supported.
-`Quelle <https://openwrt.org/supported_devices/432_warning>`__ </WRAP>
+`Quelle <https://openwrt.org/supported_devices/432_warning>`__
 
 TP-Link TL-WR841N/ND
 ~~~~~~~~~~~~~~~~~~~~

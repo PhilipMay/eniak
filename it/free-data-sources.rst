@@ -4,16 +4,14 @@ Free Data Sources
 Images
 ------
 
--  German Traffic Signs:
-   http://benchmark.ini.rub.de/?section=gtsrb&subsection=dataset#Downloads
--  PASCAL Visual Object Classes:
-   http://host.robots.ox.ac.uk/pascal/VOC/index.html
--  Caltech 101: http://www.vision.caltech.edu/Image_Datasets/Caltech101/
--  Caltech 256: http://www.vision.caltech.edu/Image_Datasets/Caltech256/
--  Large-scale CelebFaces Attributes (CelebA) Dataset:
-   http://mmlab.ie.cuhk.edu.hk/projects/CelebA.html
--  LSUN: https://www.yf.io/p/lsun
--  Labeled Faces in the Wild: http://vis-www.cs.umass.edu/lfw/
+- German Traffic Signs: http://benchmark.ini.rub.de/?section=gtsrb&subsection=dataset#Downloads
+- PASCAL Visual Object Classes: http://host.robots.ox.ac.uk/pascal/VOC/index.html
+- Caltech 101: http://www.vision.caltech.edu/Image_Datasets/Caltech101/
+- Caltech 256: http://www.vision.caltech.edu/Image_Datasets/Caltech256/
+- Large-scale CelebFaces Attributes (CelebA) Dataset: http://mmlab.ie.cuhk.edu.hk/projects/CelebA.html
+- LSUN: https://www.yf.io/p/lsun
+- Labeled Faces in the Wild: http://vis-www.cs.umass.edu/lfw/
+- STL-10 dataset: https://cs.stanford.edu/~acoates/stl10/
 
 Object Detection
 ^^^^^^^^^^^^^^^^

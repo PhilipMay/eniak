@@ -1,10 +1,12 @@
 reveal.js
 ===========
 
+- `reveal.js <https://github.com/hakimel/reveal.js/>`_
+
 Installation
 ------------
 
-- Install Node.js (LTS Version): ``nvm install --lts```
+- Install Node.js (LTS Version): ``nvm install --lts``
 - Fix security problems: ``npm audit fix``
 - Change to reveal.js directory
 - Install via npm: ``npm install``

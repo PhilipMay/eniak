@@ -257,6 +257,7 @@ html_theme_options = {
     'github_button': False,
     'font_size': '16px',
     'font_family': 'Arial,sans-serif',
+    'show_powered_by': False,
 }
 
 # Add any paths that contain custom themes here, relative to this directory.

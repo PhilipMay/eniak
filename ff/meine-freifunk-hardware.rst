@@ -127,7 +127,8 @@ Nummer 9 - AVM FRITZ!Box 4020
 
 -  Map Link: https://freifunk-bs.de/map/#!v:m;n:c80e140fbced
 
-|image0|
+.. image:: /_static/ff/passiv-poe-umbau-fritz-box-4020.jpg
+   :width: 400px
 
 Nummer 10 - TP-Link Archer C7
 -----------------------------
@@ -161,6 +162,3 @@ Nummer 11 - AVM FRITZ!Box 4020
 -  Modifikation: einige Rippen oben am Gehäuse waren gebrochen und
    wurden entfernt
 -  Map Link: https://freifunk-bs.de/map/#!v:m;n:5c49793bc5ed
-
-.. image:: /_static/ff/passiv-poe-umbau-fritz-box-4020.jpg
-   :width: 400px

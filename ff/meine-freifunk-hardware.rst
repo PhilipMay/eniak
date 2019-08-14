@@ -99,7 +99,6 @@ Nummer 8 - AVM FRITZ!Box 4020
 -  Konfiguration: kein Mesh-VPN
 -  Geo: 52° 13,502' N 010° 30,996' E
 -  Modifikation:
-
    -  Gehäuse wurde geöffnet aber wieder geschlossen
    -  hintere Schrauben wurden sehr unsauber ausgebohrt
    -  unten wurden "Gitterstäbe" entfernt

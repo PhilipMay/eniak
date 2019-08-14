@@ -1,13 +1,7 @@
-
 .. _about:
 
 About Philip May
 ============================
-
-The world wants to know more about you.
-
-Contact
-------------------
 
 If you have questions or comments about this content please feel free to contact me:
 

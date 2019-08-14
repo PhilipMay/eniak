@@ -119,7 +119,6 @@ Nummer 9 - AVM FRITZ!Box 4020
 -  Konfiguration: -
 -  Geo: -
 -  Modifikation:
-
    -  Passiv POE Umbau - siehe Foto unten
    -  USB Buchse ausgelötet - siehe Foto unten
    -  WPS und WLAN Schalter abgekniffen - siehe Foto unten

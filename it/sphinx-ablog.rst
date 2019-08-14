@@ -11,6 +11,8 @@ Sphinx and ABlog
 Syntax
 ------
 
+- `TOC <https://www.sphinx-doc.org/en/master/usage/restructuredtext/directives.html#table-of-contents>`_
+
 Boxes
 ^^^^^^
 

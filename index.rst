@@ -1,21 +1,21 @@
-Welcome to Philip May's Blog!
+Welcome to my Blog!
 =================================
 
-Hello World! Find more about me here: :ref:`about`
+This is Philip May's blog. More about me here: :ref:`about`
 
+Additionaly this is my personal knowledge management platform about :doc:`IT topics</it>`.
 
-Here is a list of most recent posts:
+Recent Posts
+-------------
 
 .. postlist:: 10
    :excerpts:
    :format: {title}
 
-TOC
----
-
 .. toctree::
    :glob:
    :titlesonly:
+   :hidden:
 
    about.rst
    it.rst

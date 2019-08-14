@@ -155,9 +155,9 @@ Nummer 11 - AVM FRITZ!Box 4020
    https://openwrt.org/toh/avm/fritz.box.4020?s\ []=4020#different_antenna_layouts
 -  Gekauft: gebraucht - Mai 2019
 -  Software: Freifunk Braunschweig installiert und eingerichtet
--  Node Name: Restaurant Marco Polo
+-  Node Name: may-11
 -  Konfiguration: -
--  Geo: 52° 12,843' N 010° 31,302' E
+-  Geo: -
 -  Modifikation: einige Rippen oben am Gehäuse waren gebrochen und
    wurden entfernt
 -  Map Link: https://freifunk-bs.de/map/#!v:m;n:5c49793bc5ed

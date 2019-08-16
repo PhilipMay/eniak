@@ -5,7 +5,7 @@ AWS Service Overview
 --------------------
 
 General Purpose Machine Learning Services
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 -  **Amazon Elastic Inference** - attach GPU acceleration to Amazon
    instances: https://aws.amazon.com/machine-learning/elastic-inference/
@@ -18,7 +18,7 @@ General Purpose Machine Learning Services
    -  https://docs.aws.amazon.com/dlami/latest/devguide/what-is-dlami.html
 
 Text and Speech Services
-~~~~~~~~~~~~~~~~~~~~~~~~
+^^^^^^^^^^^^^^^^^^^^^^^^
 
 -  **Amazon Polly** - text to speech service (blackbox):
    https://aws.amazon.com/polly/
@@ -34,13 +34,13 @@ Text and Speech Services
    https://aws.amazon.com/translate/
 
 Image and Video Services
-~~~~~~~~~~~~~~~~~~~~~~~~
+^^^^^^^^^^^^^^^^^^^^^^^^
 
 -  **Amazon Rekognition** - image and video analysis (blackbox):
    https://aws.amazon.com/rekognition/
 
 Toy Services
-~~~~~~~~~~~~
+^^^^^^^^^^^^
 
 -  **AWS DeepLens** - deep learning video camera (toy):
    https://aws.amazon.com/deeplens/
@@ -48,7 +48,7 @@ Toy Services
    https://aws.amazon.com/deepracer/
 
 Other Services
-~~~~~~~~~~~~~~
+^^^^^^^^^^^^^^
 
 -  **Amazon Forecast** - time-series forecasting service (blackbox):
    https://aws.amazon.com/forecast/
@@ -58,6 +58,13 @@ Other Services
    https://aws.amazon.com/sagemaker/groundtruth/
 -  **Amazon SageMaker Neo** - compile models for speed and low memory
    footprint: https://aws.amazon.com/sagemaker/neo/
+
+SageMaker Links
+---------------
+
+- `Amazon SageMaker 10-Minute Tutorial <https://aws.amazon.com/blogs/machine-learning/category/artificial-intelligence/sagemaker/?sc_icampaign=pac-sagemaker-blogpost&sc_ichannel=ha&sc_icontent=awssm-2276&sc_iplace=console-right&trk=ha_awssm-2276>`_
+- `Amazon SageMaker Technical deep-dive <https://aws.amazon.com/getting-started/tutorials/build-train-deploy-machine-learning-model-sagemaker/?sc_icampaign=pac-sagemaker-console-tutorial&sc_ichannel=ha&sc_icontent=awssm-2276&sc_iplace=console-body&trk=ha_awssm-2276>`_
+- `Learn fundamentals and deep dive into Amazon SageMaker algorithmsLearn more <https://www.youtube.com/playlist?list=PLhr1KZpdzukcOr_6j_zmSrvYnLUtgqsZz&sc_icampaign=YT_deep-dive&sc_icontent=awssm-2747&sc_iplace=console-sagemaker-learning>`_
 
 Services
 --------

@@ -3,7 +3,7 @@ TODO
 
 .. todo::
 
-   Replace ``_templates``files.
+   Replace ``_templates`` files.
 
 List of TODOs
 -------------

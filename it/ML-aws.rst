@@ -72,6 +72,9 @@ Services
 
 There are some services but just a couple with GPU support: https://aws.amazon.com/sagemaker/pricing/instance-types
 
--  ml.p3.2xlarge - 1 x V100 GPU
--  ml.p3.8xlarge - 4 x V100 GPU
--  ml.p3.16xlarge - 8 x V100 GPU
+- ml.p3.2xlarge - 1 x V100 GPU
+- ml.p3.8xlarge - 4 x V100 GPU
+- ml.p3.16xlarge - 8 x V100 GPU
+- ml.p2.xlarge - 1 x K80 GPU
+- ml.p2.8xlarge - 8 x K80 GPU
+- ml.p2.16xlarge - 16 x K80 GPU

@@ -67,6 +67,11 @@ SageMaker Links
 - `Learn fundamentals and deep dive into Amazon SageMaker algorithmsLearn more <https://www.youtube.com/playlist?list=PLhr1KZpdzukcOr_6j_zmSrvYnLUtgqsZz&sc_icampaign=YT_deep-dive&sc_icontent=awssm-2747&sc_iplace=console-sagemaker-learning>`_
 - `SageMaker - Developer Guide - Get Started  <https://docs.aws.amazon.com/sagemaker/latest/dg/gs.html>`_
 
+Python API
+----------
+
+- `Boto 3 Documentation <https://boto3.readthedocs.io>`_
+
 Services
 --------
 

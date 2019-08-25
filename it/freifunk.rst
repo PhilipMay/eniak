@@ -166,7 +166,6 @@ Links
 
 -  `Freifunk <https://freifunk.net/>`__
 -  `Freifunk Forum <https://forum.freifunk.net/>`__
--  :doc:`Meine Freifunk Hardware <meine-freifunk-hardware>`
 -  `Pico Peering Agreement <http://picopeer.net/>`__
 -  Braunschweig
 
@@ -192,7 +191,6 @@ Router
 TP-Link TL-WR841N/ND
 ~~~~~~~~~~~~~~~~~~~~
 
--  :doc:`TP-Link TL-WR841N & TL-WR841ND </ff/tp-link-tl-wr841n-tl-wr841nd>`
 -  Speicher: 4MB Flash, 32MB RAM :!:
 -  Aufgrund des relativ kleinen 4MB Flash-Speichers ist die weitere
    Kompabilität zu zukünftigen Updates offen

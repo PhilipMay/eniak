@@ -19,6 +19,7 @@ Recent Posts
 
    about.rst
    it.rst
+   py.rst
    ff.rst
    wiki-old.rst
    todo.rst

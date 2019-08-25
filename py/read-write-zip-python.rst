@@ -43,4 +43,3 @@ Die Daten zeilenbasiert lesen:
        with myzip.open('my_new_file_inside_the_new_zip_file.txt', 'r') as myfile:
            for line in myfile.readlines():
                print(line.decode())
-

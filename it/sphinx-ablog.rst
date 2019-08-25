@@ -31,6 +31,12 @@ Warning box:
    .. warning::
       This is warning text.
 
+Important box:
+
+.. code:: rst
+
+   .. important::
+      This is important text.
 
 Todo box:
 

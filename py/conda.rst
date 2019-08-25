@@ -1,5 +1,5 @@
-Conda How-to
-============
+Conda
+=====
 
 Create new Conda Environment
 ----------------------------
@@ -66,18 +66,17 @@ also see: https://docs.conda.io/projects/conda/en/latest/commands/clean.html
 conda-forge Pakete erstellen
 ----------------------------
 
--  conda-forge: https://conda-forge.org/
--  conda install conda-verify vor dem build:
-   https://github.com/conda/conda-verify
--  Beispiele:
+- conda-forge: https://conda-forge.org/
+- conda install conda-verify vor dem build: https://github.com/conda/conda-verify
+- Beispiele:
 
-   -  https://github.com/conda-forge/keras-feedstock
-   -  https://github.com/conda-forge/numpy-feedstock
+  - https://github.com/conda-forge/keras-feedstock
+  - https://github.com/conda-forge/numpy-feedstock
 
 Where are the conda environments stored?
 ----------------------------------------
 
--  Mac: ``/usr/local/miniconda3/envs``
+- Mac: ``/usr/local/miniconda3/envs``
 
 Weitere Conda-Channel konfigurieren
 -----------------------------------

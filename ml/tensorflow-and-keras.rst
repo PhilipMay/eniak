@@ -1,28 +1,29 @@
 Tensorflow and Keras
 ====================
 
-Tensorflow
+Links
 ----------
 
--  Google Groups
+- Tensorflow:
 
-   -  TensorFlow Developers:
-      https://groups.google.com/a/tensorflow.org/forum/#!forum/developers
-   -  SIG Addons:
-      https://groups.google.com/a/tensorflow.org/forum/#!forum/addons
+  - TensorFlow Developers: https://groups.google.com/a/tensorflow.org/forum/#!forum/developers
+  - SIG Addons: https://groups.google.com/a/tensorflow.org/forum/#!forum/addons
+  - Tensorflow Addons: https://github.com/tensorflow/addons
 
--  Tensorflow Addons: https://github.com/tensorflow/addons
+- Keras:
 
-Keras
------
+  - SIG Keras Meetings: https://groups.google.com/a/tensorflow.org/forum/#!forum/keras-meetings
+  - Keras-users: https://groups.google.com/forum/#!forum/keras-users
+  - Keras API Special Interest Group (SIG):
 
--  Google Groups
+    - RFC for Keras Preprocessing redesign: https://github.com/keras-team/governance/pull/6
 
-   -  SIG Keras Meetings:
-      https://groups.google.com/a/tensorflow.org/forum/#!forum/keras-meetings
-   -  Keras-users: https://groups.google.com/forum/#!forum/keras-users
+Turn off GPU usage
+------------------
 
--  Keras API Special Interest Group (SIG)
+GPU usage can be turned off this way:
 
-   -  RFC for Keras Preprocessing redesign:
-      https://github.com/keras-team/governance/pull/6
+.. code:: python
+
+   import os
+   os.environ["CUDA_VISIBLE_DEVICES"]="-1" 

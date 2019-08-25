@@ -96,37 +96,32 @@ Beispiel für die Bibliothek geopPy: https://anaconda.org/search?q=geopy
 Conda Installation auf Linux
 ----------------------------
 
--  Download Conda (Python 3.7, Linux, 64bit):
-   https://conda.io/miniconda.html
--  Installationsdatei ausführbar machen:
+- Download Conda (Python 3.7, Linux, 64bit): https://conda.io/miniconda.html
+- Installationsdatei ausführbar machen:
 
 .. code:: bash
 
    chmod +x Downloads/Miniconda3-latest-Linux-x86_64.sh 
 
--  Installation starten
+- Installation starten
 
 .. code:: bash
 
    ./Downloads/Miniconda3-latest-Linux-x86_64.sh 
 
--  der Lizenz zustimmen
--  default install location zustimmen
--  miniconda zu PATH .bashrc hinzufügen lassen -> mit yes bestätigen
--  aus Terminal ausloggen und wieder einloggen
+- der Lizenz zustimmen
+- default install location zustimmen
+- miniconda zu PATH .bashrc hinzufügen lassen -> mit yes bestätigen
+- aus Terminal ausloggen und wieder einloggen
 
 Conda Installation auf Windows
 ------------------------------
 
-#. Download Mini Conda (nicht Anaconda): https://conda.io/en/latest/miniconda.html
+- Download Mini Conda (nicht Anaconda): https://conda.io/en/latest/miniconda.html
+- Für Python 3.6 und nicht 2.5 und als 64 bit Version (nicht 32 bit)
+- Proxy installieren
 
-   #. Für Python 3.6 und nicht 2.5 und als 64 bit Version (nicht 32 bit)
-
-#. Proxy installieren
-
-   #. in der ``.condarc`` Datei folgendes einfühen (und darauf achten,
-      dass der Key "ssl_verify" nicht doppelt ist), diese Datei liegt
-      unter ``C:\Users\<User>``
+  - in der ``.condarc`` Datei folgendes einfühen (und darauf achten, dass der Key ``ssl_verify`` nicht doppelt ist), diese Datei liegt unter ``C:\Users\<User>``
 
 .. code:: YAML
 

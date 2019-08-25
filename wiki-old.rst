@@ -1,8 +1,0 @@
-Old Wiki IT Pages
-=================================
-
-.. toctree::
-   :glob:
-   :titlesonly:
-
-   wiki-old/*

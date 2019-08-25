@@ -23,5 +23,4 @@ Recent Posts
    py.rst
    ml.rst
    ff.rst
-   wiki-old.rst
    todo.rst

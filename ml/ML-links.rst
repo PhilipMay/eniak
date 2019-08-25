@@ -30,6 +30,7 @@ NLP
    -  Open Sourcing German BERT: https://deepset.ai/german-bert
    -  New Methods of ML: BERT:
       https://docs.google.com/presentation/d/1xfEYEEwMpVMUFYPXPL9T6gDycflyR_qhgMNwNZN7mrE/edit#slide=id.g460e2d4fa0_1_0
+- Mining Software Repositories: https://conf.researchr.org/home/msr-2019
 
 Natural Language Processing (NLP)
 ---------------------------------

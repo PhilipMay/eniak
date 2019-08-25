@@ -1,5 +1,5 @@
-Machine Learning
-================
+Machine Learning Links
+======================
 
 Computer vision
 ---------------
@@ -36,7 +36,7 @@ Natural Language Processing (NLP)
 
 -  `Training of German Word Embedding for NLP <Training of German Word Embedding for NLP>`__
 -  `Creating a big German Dataset as a Reference for NLP Experiments <Creating a big German Dataset as a Reference for NLP Experiments>`__
--  :doc:`fastText </it/fasttext>`
+-  :doc:`fastText </ml/fasttext>`
 
 Tools / Libs
 ------------
@@ -52,9 +52,9 @@ Tools / Libs
    https://joblib.readthedocs.io/en/latest/
 -  DESlib - ensemble learning library:
    https://deslib.readthedocs.io/en/latest/
--  :doc:`SHAP (SHapley Additive exPlanations) </it/shap>`
+-  :doc:`SHAP (SHapley Additive exPlanations) </ml/shap>`
 -  Trees and Boosting
 
-   -  :doc:`XGBoost </it/xgboost>`
-   -  :doc:`LightGBM </it/lightgbm>`
+   -  :doc:`XGBoost </ml/xgboost>`
+   -  :doc:`LightGBM </ml/lightgbm>`
    -  https://catboost.ai/

@@ -2,6 +2,7 @@ Sphinx and ABlog
 ================
 
 * Sphinx: https://www.sphinx-doc.org/
+* Sphinx GitHub: https://github.com/sphinx-doc/sphinx/
 * ABlog: https://ablog.readthedocs.io/
 * ABlog GitHub: https://github.com/sunpy/ablog/
 * Alabaster: https://alabaster.readthedocs.io/

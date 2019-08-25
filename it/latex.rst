@@ -72,4 +72,3 @@ renewcommand for @ command
    \makeatletter
    \renewcommand\@noticestring{new text}
    \makeatother
-

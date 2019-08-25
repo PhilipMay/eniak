@@ -1,11 +1,11 @@
-PIP How-to
-==========
+PIP
+===
 
 Install and Update packages from a File
 ---------------------------------------
 
-For pip you can create so called `requirements
-files <https://pip.pypa.io/en/stable/user_guide/#requirements-files>`__.
+For pip you can create so called 
+`requirements files <https://pip.pypa.io/en/stable/user_guide/#requirements-files>`__.
 These files just list one package per line. Packages from this file can
 be installes with ``pip install -r <requirements_file.txt>`` and updatet
 with ``pip install -r <requirements_file.txt> -U``. The update only
@@ -30,8 +30,7 @@ To put it into a requirements file just add this:
 Install editable local Projects
 -------------------------------
 
-also see:
-https://pip.pypa.io/en/stable/reference/pip_install/#editable-installs
+also see: https://pip.pypa.io/en/stable/reference/pip_install/#editable-installs
 
 .. code:: bash
 

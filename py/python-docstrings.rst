@@ -1,5 +1,5 @@
-Python Docstrings How-to
-========================
+Python Docstrings
+=================
 
 Python docstrings can be written in many different formats. An overview
 of different methods can be found in the following Stack Overflow entry:
@@ -16,9 +16,9 @@ Sphinx <https://thomas-cokelaer.info/tutorials/sphinx/rest_syntax.html>`__.
 Links
 -----
 
--  PEP 8: https://www.python.org/dev/peps/pep-0008/
--  PEP 257: https://www.python.org/dev/peps/pep-0257/
--  PEP 287 - reStructuredText Docstring Format:
-   https://www.python.org/dev/peps/pep-0287/
--  Google Python Style Guide:
-   https://github.com/google/styleguide/blob/gh-pages/pyguide.md
+- PEP 8: https://www.python.org/dev/peps/pep-0008/
+- PEP 257: https://www.python.org/dev/peps/pep-0257/
+- PEP 287 - reStructuredText Docstring Format:
+  https://www.python.org/dev/peps/pep-0287/
+- Google Python Style Guide:
+  https://github.com/google/styleguide/blob/gh-pages/pyguide.md

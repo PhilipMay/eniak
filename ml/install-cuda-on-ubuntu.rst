@@ -20,7 +20,7 @@ CUDA intsallieren - für Tensorflow 1.10
    -  ``apt update``
    -  do not just install ``cuda`` now - install ``cuda-9-2`` to pin
       down the version number and avoid auto update to an other version
-   -  **for Cuda 10 install ``cuda-10-0`` and NOT just ``cuda-10``**
+   -  **for Cuda 10 install cuda-10-0 and NOT just cuda-10**
    -  at install time there is a version conflict between nvidia-390 and
       libglx-mesa0 - that's why we need ``--force-overwrite`` option
       - see here:
@@ -57,35 +57,6 @@ CUDA intsallieren - für Tensorflow 1.10
    # cuda settings
    export PATH=/usr/local/cuda/bin${PATH:+:${PATH}}
    export LD_LIBRARY_PATH=/usr/local/cuda/lib64:${LD_LIBRARY_PATH:+:${LD_LIBRARY_PATH}}
-
-Tensorflow Messages
--------------------
-
-When Tensorflow starts it priints the following message:
-
-.. code:: bash
-
-   I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcublas.so.10.0
-   I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudnn.so.7
-
-Fehlermeldung
--------------
-
-.. code:: bash
-
-   [...]
-   Preparing to unpack .../129-xserver-xorg-core_2%3a1.19.6-1ubuntu4_amd64.deb ...
-   Unpacking xserver-xorg-core (2:1.19.6-1ubuntu4) ...
-   Selecting previously unselected package nvidia-390.
-   Preparing to unpack .../130-nvidia-390_390.30-0ubuntu1_amd64.deb ...
-   Unpacking nvidia-390 (390.30-0ubuntu1) ...
-   dpkg: error processing archive /tmp/apt-dpkg-install-UOyRy9/130-nvidia-390_390.30-0ubuntu1_amd64.deb (--unpack):
-    trying to overwrite '/usr/lib/x86_64-linux-gnu/libGLX_indirect.so.0', which is also in package libglx-mesa0:amd64 18.0.5-0ubuntu0~18.04.1
-   Selecting previously unselected package nvidia-390-dev.
-   Preparing to unpack .../131-nvidia-390-dev_390.30-0ubuntu1_amd64.deb ...
-   Unpacking nvidia-390-dev (390.30-0ubuntu1) ...
-   Selecting previously unselected package libcuda1-390.
-   [...]
 
 Links
 -----

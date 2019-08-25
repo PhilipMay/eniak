@@ -6,8 +6,8 @@ CUDA intsallieren - für Tensorflow 1.10
 
 -  system update
 
-   -  ``%%apt update%%``
-   -  ``%%apt upgrade%%``
+   -  ``apt update``
+   -  ``apt upgrade``
 
 -  install CUDA Toolkit 10
 
@@ -15,23 +15,23 @@ CUDA intsallieren - für Tensorflow 1.10
    -  Download now
    -  Linux -> x86 -> Ubuntu -> 17.04 -> deb (network)
    -  click download
-   -  ``%%dpkg -i /<download_folder>/cuda-repo-ubuntu1710_9.2.148-1_amd64.deb%%``
+   -  ``dpkg -i /<download_folder>/cuda-repo-ubuntu1710_9.2.148-1_amd64.deb``
    -  install public CUDA GPG key (see command from last message output)
-   -  ``%%apt update%%``
+   -  ``apt update``
    -  do not just install ``cuda`` now - install ``cuda-9-2`` to pin
       down the version number and avoid auto update to an other version
    -  **for Cuda 10 install ``cuda-10-0`` and NOT just ``cuda-10``**
    -  at install time there is a version conflict between nvidia-390 and
-      libglx-mesa0 - that's why we need ``%%--force-overwrite%%`` option
+      libglx-mesa0 - that's why we need ``--force-overwrite`` option
       - see here:
       https://bugs.launchpad.net/ubuntu/+source/nvidia-graphics-drivers-390/+bug/1753796
       and `#Fehlermeldung <#Fehlermeldung>`__ below
-   -  ``%%apt-get -o Dpkg::Options::="--force-overwrite" install cuda-9-2%%``
+   -  ``apt-get -o Dpkg::Options::="--force-overwrite" install cuda-9-2``
 
 -  reboot to reload grafic driver
 -  test grafic driver works
 
-   -  ``%%nvidia-smi%%``
+   -  ``nvidia-smi``
 
 -  install cuDNN **(dev not needed)**
 
@@ -47,10 +47,10 @@ CUDA intsallieren - für Tensorflow 1.10
       Update einfacher wieder deinstalliert werden
    -  first install Runtime Library, then Developer Library:
 
-      -  ``%%dpkg -i /<download_folder>/<Runtime_Library>%%``
-      -  ``%%dpkg -i /<download_folder>/<Developer_Library>%%``
+      -  ``dpkg -i /<download_folder>/<Runtime_Library>``
+      -  ``dpkg -i /<download_folder>/<Developer_Library>``
 
--  in ``%%.bashrc%%`` of the user (not root) append the following:
+-  in ``.bashrc`` of the user (not root) append the following:
 
 .. code:: bash
 

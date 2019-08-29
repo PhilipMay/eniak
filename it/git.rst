@@ -30,6 +30,13 @@ Zu Remote Branch wechseln
    git branch <lokaler_name> origin/<remote_name>
    git checkout <lokaler_name>
 
+Show History of last Ref Updates
+--------------------------------
+
+.. code:: bash
+
+   git reflog
+
 Undo things
 -----------
 

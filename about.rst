@@ -9,7 +9,7 @@ If you have questions or comments about this content please feel free to contact
 - As a `GitHub issue <https://github.com/PhilipMay/eniak/issues>`_
 
 Profiles
------
+--------
 
 - `LinkedIn <https://www.linkedin.com/in/philip-may-3992889a/>`_
 - `Xing <https://www.xing.com/profile/Philip_May>`_

@@ -16,4 +16,5 @@ Profiles
 - `Twitter <https://twitter.com/pMay>`_
 - `GitHub <https://github.com/PhilipMay>`_
 - `GitLab <https://gitlab.com/PhilipMay>`_
+- `PyPI Projects <https://pypi.org/user/Dieshe/>`_
 - ORCID: https://orcid.org/0000-0002-2154-3421

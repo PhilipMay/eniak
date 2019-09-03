@@ -7,7 +7,7 @@ of different methods can be found in the following Stack Overflow entry:
 format? <https://stackoverflow.com/questions/3898572/what-is-the-standard-python-docstring-format>`__
 
 It seems to be clever to use the docstring format of scipy and numpy
-since these packages are the popular. A guide to the numpy docstring
+since these packages are very popular. A guide to the numpy docstring
 format is here: `numpydoc docstring
 guide <https://numpydoc.readthedocs.io/en/latest/>`__ and here is a
 `Restructured Text (reST) syntax CheatSheet for

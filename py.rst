@@ -1,5 +1,5 @@
-Python Pages
-=================================
+Python
+======
 
 .. toctree::
    :glob:

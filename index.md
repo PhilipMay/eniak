@@ -1,11 +1,11 @@
 # Welcome to my Blog!
-This is Philip May's blog. More about me here: [About Philip May](about.md)
+This is Philip May's blog. It us about the following topics:
 
 ```eval_rst
 .. toctree::
    :glob:
    :titlesonly:
-   :hidden:
+   :maxdepth: 1
 
    about.md
    it.rst

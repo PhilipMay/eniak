@@ -1,5 +1,5 @@
-Machine Learning Pages
-======================
+Machine Learning
+================
 
 .. toctree::
    :glob:

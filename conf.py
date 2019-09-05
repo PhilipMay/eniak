@@ -52,7 +52,7 @@ html_static_path = ['_static']
 # List of patterns, relative to source directory, that match files and
 # directories to ignore when looking for source files.
 exclude_patterns = [
-    'README.rst',
+    'README.md',
 ]
 
 # Add any extra paths that contain custom files (such as robots.txt or

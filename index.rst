@@ -14,7 +14,7 @@ Recent Posts
    :titlesonly:
    :hidden:
 
-   about.rst
+   about.md
    it.rst
    py.rst
    ml.rst

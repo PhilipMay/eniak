@@ -1,4 +1,4 @@
-.. post:: 12 01, 2018
+.. post 12 01, 2018
 
 Die Abkürzung von zum Beispiel
 ================================

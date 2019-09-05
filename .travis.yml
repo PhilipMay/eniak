@@ -13,4 +13,4 @@ env:
 
 script:
   - ablog build
-  - lftp sftp://eniaka_1:${FTP_PWD}@eniak.de -e "set sftp:auto-confirm yes; mirror --delete -R _website / ; quit"
+  - lftp sftp://eniaka_1:${FTP_PWD}@eniak.de -e "set sftp:auto-confirm yes; mirror --delete -R _build/html / ; quit"

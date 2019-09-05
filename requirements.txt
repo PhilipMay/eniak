@@ -1,2 +1,2 @@
-ablog
-git+https://github.com/sphinx-contrib/youtube.git
+sphinx
+sphinx-rtd-theme

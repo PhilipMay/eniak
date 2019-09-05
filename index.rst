@@ -9,10 +9,6 @@ Additionaly this is my personal knowledge management platform about :doc:`machin
 Recent Posts
 -------------
 
-.. postlist:: 10
-   :excerpts:
-   :format: {title}
-
 .. toctree::
    :glob:
    :titlesonly:
@@ -22,4 +18,4 @@ Recent Posts
    it.rst
    py.rst
    ml.rst
-   todo.rst
+   post.rst

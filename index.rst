@@ -1,13 +1,14 @@
 Welcome to my Blog!
 =================================
 
-This is Philip May's blog. More about me here: :ref:`about`
+This is Philip May's blog. More about me here: :doc:`about`
 
-Additionaly this is my personal knowledge management platform about :doc:`machine learning</ml>`,
-:doc:`IT topics</it>` and :doc:`Python</py>`.
+Additionaly this is my personal knowledge management platform about:
 
-Recent Posts
--------------
+- :doc:`Machine Learning</ml>`
+- :doc:`IT topics</it>` 
+- :doc:`Python</py>`
+- :doc:`Blog Posts</post>`
 
 .. toctree::
    :glob:

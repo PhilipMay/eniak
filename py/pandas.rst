@@ -7,7 +7,7 @@ Pandas
 Save to CSV
 -----------
 
-Here without row names (index) `index=False`.
+Here without row names (index) ``index=False``.
 
 .. code:: python
 
@@ -18,7 +18,7 @@ also see: https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.Data
 Filter nan Values
 -----------------
 
-`nan == nan` is always `false`. That is why we can not use `==` to check for `nan`-values. Use `pd.isnull(obj : scalar or array-like)` instead or `isnull()`. Examples:
+``nan == nan`` is always ``false``. That is why we can not use ``==`` to check for ``nan``-values. Use ``pd.isnull(obj : scalar or array-like)`` instead or ``isnull()``. Examples:
 
 .. code:: python
 

@@ -13,6 +13,8 @@
 # import sys
 # sys.path.insert(0, os.path.abspath('.'))
 import sphinx_rtd_theme
+import recommonmark
+from recommonmark.transform import AutoStructify
 
 # -- Project information -----------------------------------------------------
 
@@ -40,6 +42,15 @@ exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
 
 # -- Options for HTML output -------------------------------------------------
 
+# If true, links to the reST sources are added to the pages.
+html_show_sourcelink = False
+
+# If true, "(C) Copyright ..." is shown in the HTML footer. Default is True.
+html_show_copyright = False
+
+# If true, "Created using Sphinx" is shown in the HTML footer. Default is True.
+html_show_sphinx = False
+
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
 html_theme = 'sphinx_rtd_theme'
@@ -66,3 +77,12 @@ source_suffix = {
     '.rst': 'restructuredtext',
     '.md': 'markdown',
 }
+
+def setup(app):
+    app.add_config_value('recommonmark_config', {
+            #'url_resolver': lambda url: github_doc_root + url,
+            #'auto_toc_tree_section': 'Contents',
+            'enable_auto_toc_tree': True,
+            'enable_eval_rst': True,
+            }, True)
+    app.add_transform(AutoStructify)

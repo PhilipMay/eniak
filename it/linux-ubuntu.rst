@@ -29,7 +29,7 @@ Update the System
 
    apt update       # Fetches the list of available updates
    apt upgrade      # Installs some updates; does not remove packages
-   apt full-upgrade # Installs updates; may also remove some packages, it needed
+   apt full-upgrade # Installs updates; may also remove some packages, if needed
    apt autoremove   # Removes any old packages that are no longer needed
 
 Get Info about a .deb File

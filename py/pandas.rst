@@ -7,7 +7,7 @@ Pandas
 Save to CSV
 -----------
 
-Here without row names (index) ``%%index=False%%``.
+Here without row names (index) `index=False`.
 
 .. code:: python
 

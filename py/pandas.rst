@@ -15,6 +15,16 @@ Here without row names (index) ``%%index=False%%``.
 
 also see: https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.to_csv.html
 
+Filter nan Values
+-----------------
+
+Important: `nan == nan` is always `false`. That is why we can not use `==` to check for `nan`-values. Use `pd.isnull(obj : scalar or array-like)` instead or `isnull()`. Examples:
+
+.. code:: python
+
+   df.loc[pd.isnull(df['col'])]
+   df[df['col'].isnull()]
+
 Iterating Dataframes
 --------------------
 

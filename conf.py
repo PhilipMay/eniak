@@ -79,6 +79,10 @@ html_extra_path = [
     '_extra',
 ]
 
+html_theme_options = {
+    'prev_next_buttons_location': None,
+}
+
 source_suffix = {
     '.rst': 'restructuredtext',
     '.md': 'markdown',

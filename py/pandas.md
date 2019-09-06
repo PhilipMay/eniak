@@ -1,6 +1,10 @@
 # Pandas
-- <https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html>
-- <https://www.shanelynn.ie/select-pandas-dataframe-rows-and-columns-using-iloc-loc-and-ix/>
+- [Indexing and selecting data](https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html)
+- [Using iloc, loc, & ix](https://www.shanelynn.ie/select-pandas-dataframe-rows-and-columns-using-iloc-loc-and-ix/)
+- Iterating Dataframes
+  - [iterrows](https://pandas.pydata.org/pandas-docs/version/0.17.0/generated/pandas.DataFrame.iterrows.html)
+  - [itertuples](https://pandas.pydata.org/pandas-docs/version/0.17.0/generated/pandas.DataFrame.itertuples.html)
+  - [iteritems](https://pandas.pydata.org/pandas-docs/version/0.17.0/generated/pandas.DataFrame.iteritems.html)
 
 ## Save to CSV
 Here without row names (index) `index=False`.
@@ -20,8 +24,3 @@ for `nan`-values. Use `pd.isnull(obj : scalar or array-like)` instead or
 df.loc[pd.isnull(df['col'])]
 df[df['col'].isnull()]
 ```
-
-## Iterating Dataframes
-- <https://pandas.pydata.org/pandas-docs/version/0.17.0/generated/pandas.DataFrame.iterrows.html>
-- <https://pandas.pydata.org/pandas-docs/version/0.17.0/generated/pandas.DataFrame.itertuples.html>
-- <https://pandas.pydata.org/pandas-docs/version/0.17.0/generated/pandas.DataFrame.iteritems.html>

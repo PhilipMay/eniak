@@ -1,6 +1,7 @@
 reveal.js
 ===========
 
+- `Configuration <https://github.com/hakimel/reveal.js/#configuration>`_
 - `reveal.js <https://github.com/hakimel/reveal.js/>`_
 
 Installation

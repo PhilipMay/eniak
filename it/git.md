@@ -5,20 +5,31 @@
 git clone <URI>
 ```
 
-## Branch erstellen und wechseln
+## Branch handling
+
+### Branch erstellen und wechseln
 ``` bash
 git checkout -b <new_branch_name>
 ```
 
-## Alle Branches anzeigen
+### Alle Branches anzeigen
 ``` bash
 git branch -a
 ```
 
-## Zu Remote Branch wechseln
+### Zu Remote Branch wechseln
 ``` bash
 git branch <lokaler_name> origin/<remote_name>
 git checkout <lokaler_name>
+```
+
+### Delete branch
+```bash
+# delete a local branch
+git branch -d <the_local_branch>
+
+# remove a remote branch (if you know what you are doing)
+git push origin --delete <the_remote_branch>
 ```
 
 ## Show History of last Ref Updates

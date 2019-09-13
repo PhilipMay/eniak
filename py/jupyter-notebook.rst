@@ -38,3 +38,8 @@ https://nbconvert.readthedocs.io/en/latest/execute_api.html#executing-notebooks-
 
 .. note::
    If you have timeout problems - this might help: ``pip install git+https://github.com/jupyter/nbconvert.git``
+   
+View Jupyter Notebook online
+----------------------------
+
+This can be done here: https://nbviewer.jupyter.org/

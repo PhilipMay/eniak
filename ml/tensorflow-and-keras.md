@@ -4,6 +4,7 @@
 - [TensorFlow Developers (Google Groups)](https://groups.google.com/a/tensorflow.org/forum/#!forum/developers)
 - [SIG Addons (Google Groups)](https://groups.google.com/a/tensorflow.org/forum/#!forum/addons)
 - [SIG Addons Notes](https://docs.google.com/document/d/1kxg5xIHWLY7EMdOJCdSGgaPu27a9YKpupUz2VTXqTJg/edit#heading=h.7ck4k2782ggg)
+- [Tensorflow (GitHub)](https://github.com/tensorflow/tensorflow)
 - [Tensorflow Addons (GitHub)](https://github.com/tensorflow/addons)
   - [Issue: Testing Jupyter / Colab Notebooks](https://github.com/tensorflow/addons/issues/485)
 

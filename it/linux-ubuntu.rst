@@ -47,3 +47,13 @@ List installed packages
 ^^^^^^^^^^^^^^^^^^^^^^^
 
 ``apt list --installed``
+
+User Management
+---------------
+
+Delete a User
+^^^^^^^^^^^^^
+
+User accounts can be deleted with the userdel command. The ``-r`` option specifies that the user's home directory and mail spool should also be deleted.
+``userdel -r <username>``
+See also: https://wiki.archlinux.org/index.php/users_and_groups#Other_examples_of_user_management

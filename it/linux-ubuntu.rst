@@ -51,6 +51,14 @@ List installed packages
 User Management
 ---------------
 
+Create a User
+^^^^^^^^^^^^^
+
+.. code-block:: bash
+   
+   useradd <username> -m -s /bin/bash
+   passwd <username>
+
 Delete a User
 ^^^^^^^^^^^^^
 

@@ -67,3 +67,11 @@ User accounts can be deleted with the userdel command. The ``-r`` option specifi
 ``userdel -r <username>``
 
 See also: https://wiki.archlinux.org/index.php/users_and_groups#Other_examples_of_user_management
+
+Hardware
+--------
+
+Get Info about GPU
+^^^^^^^^^^^^^^^^^^
+
+``lshw -C display``

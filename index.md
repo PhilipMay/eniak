@@ -1,5 +1,5 @@
 # Welcome to my Blog!
-This is Philip May's blog. It us about the following topics:
+This is Philip May's blog. It is about the following topics:
 
 ```eval_rst
 .. toctree::

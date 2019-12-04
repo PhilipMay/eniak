@@ -13,7 +13,17 @@
 ## Embed reStructuredText
 ````
 ```eval_rst
-.. autoclass:: recommonmark.transform.AutoStructify
-    :show-inheritance:
+.. toctree::
+   :numbered:
+
+   foo
+   bar
+```
+````
+
+or
+
+````
+``` important:: Its a note! in markdown!
 ```
 ````

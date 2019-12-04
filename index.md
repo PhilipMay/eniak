@@ -11,6 +11,7 @@ This is Philip May's blog. It is about the following topics:
    py.rst
    ml.rst
    post.rst
+   archive.rst
 ```
 
 ## Contact

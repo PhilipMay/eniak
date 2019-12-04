@@ -9,3 +9,11 @@
 - reStructuredText Primer: <https://www.sphinx-doc.org/en/master/usage/restructuredtext/basics.html>
 - TOC: <https://www.sphinx-doc.org/en/master/usage/restructuredtext/directives.html#table-of-contents>
 - Markdown: <https://commonmark.org/help/>
+
+## Embed reStructuredText
+````
+```eval_rst
+.. autoclass:: recommonmark.transform.AutoStructify
+    :show-inheritance:
+```
+````

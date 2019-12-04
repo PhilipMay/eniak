@@ -27,3 +27,8 @@ or
 ``` important:: Its a note! in markdown!
 ```
 ````
+
+## Convert reStructuredText to Markdown
+```bash
+pandoc -s -o <target>.md <source>.rst
+```

@@ -1,8 +1,7 @@
 # Jupyter Notebook
 
 ## Using Jupyter with Conda
-``` note:: At the moment (Aug. 6. 2019) this problem seems to be fixed in jupyter. No other software is needed.
-```
+At the moment (Aug. 6. 2019) this problem seems to be fixed in jupyter. No other software is needed.
 
 When using Jupyter Notebook with Conda there [might be
 problems](https://stackoverflow.com/questions/39604271/conda-environments-not-showing-up-in-jupyter-notebook/44786736).
@@ -30,8 +29,7 @@ to run.
 
 also see: <https://nbconvert.readthedocs.io/en/latest/execute_api.html#executing-notebooks-from-the-command-line>
 
-``` note:: If you have timeout problems - this might help: `pip install git+https://github.com/jupyter/nbconvert.git`
-```
+If you have timeout problems - this might help: `pip install git+https://github.com/jupyter/nbconvert.git`
 
 ## View Jupyter Notebook online
 This can be done here: <https://nbviewer.jupyter.org/>

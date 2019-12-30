@@ -106,5 +106,5 @@ wat-git r29.0861966-1
 ```
 
 ## Printer
-- use hplip: https://www.archlinux.de/packages/extra/x86_64/hplip
-- installation with `hp-setup -i` as user (not root) - see https://wiki.archlinux.org/index.php/CUPS/Printer-specific_problems#HPLIP
+- use [hplip](https://www.archlinux.de/packages/extra/x86_64/hplip)
+- installation with `hp-setup -i` as user (not root) - see <https://wiki.archlinux.org/index.php/CUPS/Printer-specific_problems#HPLIP>

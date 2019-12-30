@@ -22,3 +22,9 @@ apt autoremove   # Removes any old packages that are no longer needed
 
 ## Check Ubuntu Version
 `lsb_release -a`
+
+## Install VirtualBox Guest Additions
+- install `build-essential` with: `sudo apt-get install build-essential`
+- link the VirtualBox Guest Additions iso image to a cd drive
+- cd should be auto mounted to somewhere at `/media` if XFCE or GNOME is installed
+- change to that directory and execute installation: `sudo ./VBoxLinuxAdditions.run`

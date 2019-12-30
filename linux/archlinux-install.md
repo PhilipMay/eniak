@@ -84,6 +84,7 @@ pacman-contrib
 pacutils
 powertop
 reflector
+screen
 skypeforlinux-stable-bin
 texmaker
 usbutils

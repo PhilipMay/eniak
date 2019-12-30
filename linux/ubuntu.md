@@ -46,3 +46,10 @@ To be able to copy and paste to and from the guest system you need a desktop env
 - change to that directory and execute installation: `sudo ./VBoxLinuxAdditions.run`
 
 also see here: <https://askubuntu.com/questions/1035030/virtualbox-guest-additions-installation-problem/1047193#1047193>
+
+## Install Docker
+To install docker do not install the package called `docker`. Docker is a "	System tray for KDE3/GNOME2 docklet applications". The package you need is called `docker.io`
+- install with: `sudo apt install docker.io`
+- start with: `sudo systemctl start docker`
+- stop with: `sudo systemctl stop docker`
+- enable (always start at boot time) with: `sudo systemctl enable docker`

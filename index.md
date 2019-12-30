@@ -10,6 +10,7 @@ This is Philip May's blog. It is about the following topics:
    it.rst
    py.rst
    ml.rst
+   linux.rst
    post.rst
    archive.rst
 ```

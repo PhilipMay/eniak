@@ -1,4 +1,4 @@
-# Archlinux installation
+# Archlinux Installation
 
 ## Config files
 
@@ -28,4 +28,12 @@ linux   /vmlinuz-linux
 initrd  /amd-ucode.img
 initrd  /initramfs-linux-fallback.img
 options root=/dev/nvme0n1p3 rw resume=/dev/nvme0n1p2 acpi_backlight=native
+```
+
+### More Config Settings
+
+`/etc/locale.conf`:
+```bash
+LANG=en_US.UTF-8
+LC_TIME=de_DE.UTF-8
 ```

@@ -23,7 +23,23 @@ apt autoremove   # Removes any old packages that are no longer needed
 ## Check Ubuntu Version
 `lsb_release -a`
 
-## Install VirtualBox Guest Additions
+## Install Ubuntu as a VirtualBox Guest
+This describes how to install Ubuntu as a VirtualBox guest system to do experiments with docker or other stuff.
+
+### Basic installation
+- download a server version of Ubuntu
+- the current LTS version might be a good idea
+- do normal installation
+
+### Install XFCE
+To be able to copy and paste to and from the guest system you need a desktop environment like XFCE. XFCE is small compared to GNOME and the minimal installation does not contain LibreOffice and other stuff you do not need.
+- install `tasksel`: `sudo apt install tasksel`
+- execute `tasksel`: `sudo tasksel`
+- select `Xubuntu minimal installation`
+- press tabulatur and select `Ok` with return key
+- reboot
+
+### Install VirtualBox Guest Additions
 - install `build-essential` with: `sudo apt-get install build-essential`
 - link the VirtualBox Guest Additions iso image to a cd drive
 - cd should be auto mounted to somewhere at `/media` if XFCE or GNOME is installed

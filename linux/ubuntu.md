@@ -28,3 +28,5 @@ apt autoremove   # Removes any old packages that are no longer needed
 - link the VirtualBox Guest Additions iso image to a cd drive
 - cd should be auto mounted to somewhere at `/media` if XFCE or GNOME is installed
 - change to that directory and execute installation: `sudo ./VBoxLinuxAdditions.run`
+
+also see here: <https://askubuntu.com/questions/1035030/virtualbox-guest-additions-installation-problem/1047193#1047193>

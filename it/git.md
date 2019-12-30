@@ -129,6 +129,22 @@ changed.
 
 ## Configuration
 
+## Remember Username and Password
+```bash
+git config --global credential.helper store
+```
+
+## Set Username
+Set username for every repository (global)
+```bash
+git config --global user.name "<username>"
+```
+
+Set username for single repository (local)
+```bash
+git config user.name "<username>"
+```
+
 ### Global ignore Settings
 Create global ignore settings that are used everywhere:
 - create `~/.gitignore_global` file with ignore settings

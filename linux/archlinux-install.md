@@ -37,3 +37,69 @@ File `/etc/locale.conf`:
 LANG=en_US.UTF-8
 LC_TIME=de_DE.UTF-8
 ```
+
+In file `/etc/mkinitcpio.conf` set `MODULES=(amdgpu)`.
+
+### Installed Packages
+
+Installed groups:
+```
+base
+base-devel
+gnome
+gnome-extra
+texlive-most
+```
+
+Installed packages:
+```
+acpid
+amd-ucode
+archlinux-wallpaper
+auracle-git
+base
+bazel
+chromium
+code
+cups
+docker
+duplicity
+duply
+efibootmgr
+firefox
+gimp
+git
+google-chrome
+hexchat
+hplip
+inkscape
+keepassxc
+libreoffice-still
+libreoffice-still-de
+linux
+linux-firmware
+mesa-demos
+nano
+pacman-contrib
+pacutils
+powertop
+reflector
+skypeforlinux-stable-bin
+texmaker
+usbutils
+vim
+virtualbox
+virtualbox-guest-iso
+vlc
+wat-git
+wget
+```
+
+AUR packages:
+```
+auracle-git r305.941b5aa-1
+duply 2.2-1
+google-chrome 79.0.3945.88-1
+skypeforlinux-stable-bin 8.55.0.141-1
+wat-git r29.0861966-1
+``

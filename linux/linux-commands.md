@@ -17,8 +17,7 @@ passwd <username>
 User accounts can be deleted with the userdel command. The `-r` option
 specifies that the user\'s home directory and mail spool should also be
 deleted.
-
-````bash
+```bash
 userdel -r <username>
 ```
 

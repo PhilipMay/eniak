@@ -23,6 +23,11 @@ deleted.
 See also:
 <https://wiki.archlinux.org/index.php/users_and_groups#Other_examples_of_user_management>
 
+### Add a user to a Group
+```bash
+gpasswd -a <user> <group>
+```
+
 ## Hardware
 
 ### Get Info about GPU

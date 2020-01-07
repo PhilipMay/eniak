@@ -72,7 +72,15 @@ Den passenden Channel findet man unter <https://anaconda.org>
 
 Beispiel für die Bibliothek geopPy: <https://anaconda.org/search?q=geopy>
 
-## Conda Installation auf Linux
+## Conda Installation and Setup
+
+### Disable automatic base activation: 
+```bash
+conda config --set auto_activate_base false
+```
+also see: <https://stackoverflow.com/a/54560785/271118>
+
+### Conda Installation auf Linux
 - Download Conda (Python 3.7, Linux, 64bit): <https://conda.io/miniconda.html>
 - Installationsdatei ausführbar machen:
 
@@ -91,7 +99,7 @@ chmod +x Downloads/Miniconda3-latest-Linux-x86_64.sh
 - miniconda zu PATH .bashrc hinzufügen lassen -\> mit yes bestätigen
 - aus Terminal ausloggen und wieder einloggen
 
-## Conda Installation auf Windows
+### Conda Installation auf Windows
 - Download Mini Conda (nicht Anaconda): <https://conda.io/en/latest/miniconda.html>
 - Für Python 3.6 und nicht 2.5 und als 64 bit Version (nicht 32 bit)
 - Proxy installieren

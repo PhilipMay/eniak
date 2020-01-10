@@ -6,6 +6,11 @@
   - [itertuples](https://pandas.pydata.org/pandas-docs/version/0.17.0/generated/pandas.DataFrame.itertuples.html)
   - [iteritems](https://pandas.pydata.org/pandas-docs/version/0.17.0/generated/pandas.DataFrame.iteritems.html)
 
+## Display all Columns in Jupyter Notebook
+```python
+pd.options.display.max_columns = None
+```
+
 ## Save to CSV
 Here without row names (index) `index=False`.
 

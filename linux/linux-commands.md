@@ -36,3 +36,9 @@ gpasswd -a <username> <group>
 
 ## Get Infos about CPU
 `cat /proc/cpuinfo`
+
+## Special
+
+### Rotate Terminal
+- to the right: `echo 1 | sudo tee /sys/class/graphics/fbcon/rotate_all`
+- to the left: `echo 3 | sudo tee /sys/class/graphics/fbcon/rotate_all`

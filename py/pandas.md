@@ -11,21 +11,31 @@
 pd.options.display.max_columns = None
 ```
 
-## Save to CSV
-Here without row names (index) `index=False`.
-
-``` python
-df.to_csv('<path_or_buf>', index=False)
-```
-
-also see: <https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.to_csv.html>
-
 ## Filter nan Values
 `nan == nan` is always `false`. That is why we can not use `==` to check
 for `nan`-values. Use `pd.isnull(obj : scalar or array-like)` instead or
 `isnull()`. Examples:
-
 ``` python
 df.loc[pd.isnull(df['col'])]
 df[df['col'].isnull()]
+```
+
+## Load and save
+
+### Save to CSV
+Here without row names (index) `index=False`.
+``` python
+df.to_csv(<path_or_buffer>, index=False)
+```
+also see: <https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.to_csv.html>
+
+### Load from CSV
+``` python
+df = pd.read_csv(
+        <path_or_buffer>,
+        sep=';',
+        encoding='us-ascii',
+        usecols=<col_list>,
+        nrows=<number_of_rows_to_read>,
+        )
 ```

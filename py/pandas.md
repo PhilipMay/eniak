@@ -20,6 +20,14 @@ df.loc[pd.isnull(df['col'])]
 df[df['col'].isnull()]
 ```
 
+## Change DataFrames
+
+### Rename Columns
+This is renaming the columns inplace. It returns nothing.
+```
+df.rename(columns={'A': 'x'}, inplace=True)
+```
+
 ## Load and save
 
 ### Save to CSV

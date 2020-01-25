@@ -26,6 +26,18 @@ Only consider certain columns for identifying duplicates and keep first (inplace
 df.drop_duplicates(<list_of_cols>, inplace=True, keep='first')
 ```
 
+### Remove complete Column
+Do this inplace.
+``` python
+df.drop(<col_name>, axis=1, inplace=True)
+```
+
+### Remove rows on Condition
+Do this inplace.
+``` python
+df.drop(df[df[<col_name>] == <condition>].index , inplace=True)
+```
+
 ### Filter nan Values
 `nan == nan` is always `false`. That is why we can not use `==` to check
 for `nan`-values. Use `pd.isnull(obj : scalar or array-like)` instead or

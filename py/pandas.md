@@ -6,12 +6,27 @@
   - [itertuples](https://pandas.pydata.org/pandas-docs/version/0.17.0/generated/pandas.DataFrame.itertuples.html)
   - [iteritems](https://pandas.pydata.org/pandas-docs/version/0.17.0/generated/pandas.DataFrame.iteritems.html)
 
-## Display all Columns in Jupyter Notebook
+## Display Data
+
+### Display all Columns in Jupyter Notebook
 ```python
 pd.options.display.max_columns = None
 ```
 
-## Filter nan Values
+## Filter Data
+
+### Remove Duplicates
+Remove all duplicates and keep first (inplace).
+``` python
+df.drop_duplicates(inplace=True, keep='first')
+```
+
+Only consider certain columns for identifying duplicates and keep first (inplace).
+``` python
+df.drop_duplicates(<list_of_cols>, inplace=True, keep='first')
+```
+
+### Filter nan Values
 `nan == nan` is always `false`. That is why we can not use `==` to check
 for `nan`-values. Use `pd.isnull(obj : scalar or array-like)` instead or
 `isnull()`. Examples:

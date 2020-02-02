@@ -1,5 +1,5 @@
-Texte unformatiert einfügen (Windows)
-=====================================
+2018-12-04 Texte unformatiert einfügen (Windows)
+================================================
 
 Wer kennt das nicht: Man kopiert einen Text von einer Webseite in eine
 E-Mail oder einen Texteditor und nach dem Einfügen hat der Text eine

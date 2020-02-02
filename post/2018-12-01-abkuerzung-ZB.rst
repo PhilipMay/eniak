@@ -1,5 +1,5 @@
-Die Abkürzung von zum Beispiel
-================================
+2018-12-01 Die Abkürzung von zum Beispiel
+=========================================
 
 Wie wird eigentlich „zum Beispiel“ richtig abgekürzt? An vielen Stellen
 findet man die Schreibweise „z.B.“. Das ist jedoch leider falsch.

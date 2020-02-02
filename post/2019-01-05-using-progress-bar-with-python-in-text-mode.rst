@@ -1,5 +1,5 @@
-Using Progress Bar with Python in Text Mode
-===========================================
+2019-01-05 Using Progress Bar with Python in Text Mode
+======================================================
 
 Since I often have long running batch processing scripts in python I was
 looking for a way to implement a progress bar. On my search I found a

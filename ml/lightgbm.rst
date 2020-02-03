@@ -56,3 +56,5 @@ GPU Support
 
 - Build with GPU Support: ``python setup.py install --gpu --opencl-include-dir=/usr/local/cuda/include/ --opencl-library=/usr/local/cuda/lib64/libOpenCL.so``
 - Install with GPU Support: ``pip install lightgbm --install-option=--gpu --install-option=--opencl-include-dir=/usr/local/cuda/include/ --install-option=--opencl-library=/usr/local/cuda/lib64/libOpenCL.so``
+
+To use the GPU you have to provide ``'device_type': 'gpu'`` to parameters.

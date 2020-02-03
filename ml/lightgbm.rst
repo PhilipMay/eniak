@@ -50,3 +50,11 @@ Links
       https://github.com/Microsoft/LightGBM/tree/master/examples/multiclass_classification
 
 ##mOn GPU - https://lightgbm.readthedocs.io/en/latest/GPU-Tutorial.html
+
+Build with GPU Support
+----------------------
+
+.. code:: bash
+
+   python setup.py install --gpu --opencl-include-dir=/usr/local/cuda/include/ --opencl-library=/usr/local/cuda/lib64/libOpenCL.so
+

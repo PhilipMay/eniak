@@ -51,10 +51,8 @@ Links
 
 ##mOn GPU - https://lightgbm.readthedocs.io/en/latest/GPU-Tutorial.html
 
-Build with GPU Support
-----------------------
+GPU Support
+-----------
 
-.. code:: bash
-
-   python setup.py install --gpu --opencl-include-dir=/usr/local/cuda/include/ --opencl-library=/usr/local/cuda/lib64/libOpenCL.so
-
+- Build with GPU Support: ``python setup.py install --gpu --opencl-include-dir=/usr/local/cuda/include/ --opencl-library=/usr/local/cuda/lib64/libOpenCL.so``
+- Install with GPU Support: ``pip install lightgbm --install-option=--gpu --install-option=--opencl-include-dir=/usr/local/cuda/include/ --install-option=--opencl-library=/usr/local/cuda/lib64/libOpenCL.so``

@@ -57,7 +57,7 @@ Get Infos about CPU
 Get Infos about CPU Temperature and Fans
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-You need the package called ``lm-sensors``. The command is `sensors`. Also see: https://askubuntu.com/a/15833/478988
+You need the package called ``lm-sensors``. The command is ``sensors``. Also see: https://askubuntu.com/a/15833/478988
 
 Special
 -------

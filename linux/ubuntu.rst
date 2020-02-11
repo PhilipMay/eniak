@@ -30,6 +30,11 @@ List installed packages
 
 ``apt list --installed``
 
+List manually installed Packages
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+``apt-mark showmanual``
+
 Check Ubuntu Version
 --------------------
 

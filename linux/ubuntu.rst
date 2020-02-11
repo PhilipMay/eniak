@@ -35,6 +35,11 @@ List manually installed Packages
 
 ``apt-mark showmanual``
 
+Remove Package with dependencies
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+``apt-get remove --auto-remove <package_name>``
+
 Check Ubuntu Version
 --------------------
 

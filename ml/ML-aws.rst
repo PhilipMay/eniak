@@ -88,6 +88,7 @@ Performance Experiment with EC2
 -------------------------------
 
 Given:
+
 - LightGBM Classification
 - x_train.shape (13788428, 30)
 - x_val.shape (2433253, 30)
@@ -96,5 +97,5 @@ Given:
 - num_classes: 401
 
 Results:
-- m5.8xlarge, 32 vCPUs, Intel Xeon Platinum 8175, 3.1 GHz Clock Speed, 128 GiB RAM, time: 574s
 
+- m5.8xlarge, 32 vCPUs, Intel Xeon Platinum 8175, 3.1 GHz Clock Speed, 128 GiB RAM, time: 574s

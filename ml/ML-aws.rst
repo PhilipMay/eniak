@@ -95,6 +95,7 @@ Given:
 - y_train.shape (13788428,)
 - y_val.shape (2433253,)
 - num_classes: 401
+- ``num_boost_round = 4``
 
 Results:
 

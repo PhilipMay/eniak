@@ -59,6 +59,15 @@ Get Infos about CPU Temperature and Fans
 
 You need the package called ``lm-sensors``. The command is ``sensors``. Also see: https://askubuntu.com/a/15833/478988
 
+Proxy Handling
+--------------
+
+ssh through a proxy (to an EC2 instance in this example)
+``ssh -i <key_file>.pem <user>@<target_host_or_ip> -o "ProxyCommand=nc -X connect -x <proxy_ip>:<proxy_port> %h %p"``
+
+scp through a proxy (to an EC2 instance in this example)
+``scp -i ~/.ssh/<key_file>.pem -o "ProxyCommand=nc -X connect -x <proxy_ip>:<proxy_port> %h %p" <file> <user>@<target_host_or_ip>: 
+
 Special
 -------
 

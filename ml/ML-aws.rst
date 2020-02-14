@@ -101,3 +101,4 @@ Results:
 
 - m5.8xlarge, 32 vCPUs, Intel Xeon Platinum 8175, 3.1 GHz Clock Speed, 128 GiB RAM, time: 574s
 - r5.4xlarge, 16 vCPUs, Intel Xeon Platinum 8175, 3.1 GHz Clock Speed, 128 GiB RAM, time: 763s
+- c5.24xlarge,96 vCPUs, 2nd Gen Intel Xeon Platinum 8275CL, 3.6 GHz Clock Speed, 192 GiB RAM, time: s

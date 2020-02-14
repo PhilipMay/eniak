@@ -65,12 +65,16 @@ Proxy Handling
 SSH through a Proxy (to an EC2 instance in this example)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-``ssh -i <key_file>.pem <user>@<target_host_or_ip> -o "ProxyCommand=nc -X connect -x <proxy_ip>:<proxy_port> %h %p"``
+.. code:: bash
+
+   ssh -i <key_file>.pem <user>@<target_host_or_ip> -o "ProxyCommand=nc -X connect -x <proxy_ip>:<proxy_port> %h %p"
 
 SCP through a Proxy (to an EC2 instance in this example)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-``scp -i ~/.ssh/<key_file>.pem -o "ProxyCommand=nc -X connect -x <proxy_ip>:<proxy_port> %h %p" <file> <user>@<target_host_or_ip>:``
+.. code:: bash
+
+   scp -i ~/.ssh/<key_file>.pem -o "ProxyCommand=nc -X connect -x <proxy_ip>:<proxy_port> %h %p" <file> <user>@<target_host_or_ip>:
 
 Special
 -------

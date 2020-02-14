@@ -83,3 +83,18 @@ There are some services but just a couple with GPU support: https://aws.amazon.c
 - ml.p2.xlarge - 1 x K80 GPU
 - ml.p2.8xlarge - 8 x K80 GPU
 - ml.p2.16xlarge - 16 x K80 GPU
+
+Performance Experiment with EC2
+-------------------------------
+
+Given:
+- LightGBM Classification
+- x_train.shape (13788428, 30)
+- x_val.shape (2433253, 30)
+- y_train.shape (13788428,)
+- y_val.shape (2433253,)
+- num_classes: 401
+
+Results:
+- m5.8xlarge time: 574s
+

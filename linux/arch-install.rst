@@ -132,13 +132,20 @@ Archlinux Installation
    # add in boot config
    initrd  /cpu_manufacturer-ucode.img
 
-   # TODO: fstrim
+   # fstrim
    systemctl enable fstrim.timer
 
-   # TODO: https://wiki.archlinux.org/index.php/Swap#Swappiness
+   # swappiness
+   # https://wiki.archlinux.org/index.php/Swap#Swappiness
    nano /etc/sysctl.d/99-swappiness.conf
 
    vm.swappiness=10
+
+   # sudo
+   pacman -S sudo
+   EDITOR=nano visudo
+   %wheel      ALL=(ALL) ALL
+   gpasswd -a <username> wheel
 
    # Leneove ThinkPad T495x specific
 

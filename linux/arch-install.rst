@@ -150,6 +150,10 @@ Archlinux Installation
    nano /etc/mkinitcpio.conf
    MODULES=(amdgpu)
    mkinitcpio -P
+   
+   # enable aur
+   pacman -S --needed base-devel
+   nano /etc/makepkg.conf
 
    # Leneove ThinkPad T495x specific
 

@@ -149,6 +149,7 @@ Archlinux Installation
    
    nano /etc/mkinitcpio.conf
    MODULES=(amdgpu)
+   mkinitcpio -P
 
    # Leneove ThinkPad T495x specific
 

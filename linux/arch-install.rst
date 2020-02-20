@@ -146,6 +146,9 @@ Archlinux Installation
    EDITOR=nano visudo
    %wheel      ALL=(ALL) ALL
    gpasswd -a <username> wheel
+   
+   nano /etc/mkinitcpio.conf
+   MODULES=(amdgpu)
 
    # Leneove ThinkPad T495x specific
 

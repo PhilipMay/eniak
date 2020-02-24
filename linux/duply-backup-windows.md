@@ -8,6 +8,7 @@
   - python36-pip
   - nano
 - update `binutils` to newest (test) version
+- install duplicity: `pip3 install duplicity`
 
 ## Configuration
 - edit .bashrc: `nano .bashrc`

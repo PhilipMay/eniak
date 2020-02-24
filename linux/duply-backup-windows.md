@@ -8,6 +8,7 @@
   - python36-pip
   - python3-devel
   - gcc-core
+  - librsync-devel
   - nano
 - update `binutils` to newest (test) version
 - install duplicity: `pip3 install duplicity`

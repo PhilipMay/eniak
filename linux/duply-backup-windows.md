@@ -6,6 +6,7 @@
 - install the following additional packages (by just starting `setup-x86_64.exe` again):
   - python3
   - python36-pip
+  - python3-devel
   - gcc-core
   - nano
 - update `binutils` to newest (test) version

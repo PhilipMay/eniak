@@ -17,11 +17,11 @@
 - create bin dir: `mkdir bin`
 - change to that dir: `cd bin`
 - create link to gpg2: `ln -s /usr/bin/gpg2.exe gpg.exe`
-- change back to home dir `cd`
 - download duply: <https://duply.net/>
 - unpack duply
 - copy duply script to bin dir: `cp /cygdrive/c/Users/<your_username>/Downloads/<duply_dir>/duply .`
+- change back to home dir `cd`
 
-## Configuration
+## Configuration of .bashrc
 - edit .bashrc: `nano .bashrc`
 - add `export PATH=/home/<your_username>/bin:$PATH`

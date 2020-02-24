@@ -11,7 +11,9 @@
   - librsync-devel
   - nano
 - update `binutils` to newest (test) version
+- update pip (optional): `pip install --upgrade pip`
 - install duplicity: `pip3 install duplicity`
+
 
 ## Configuration
 - edit .bashrc: `nano .bashrc`

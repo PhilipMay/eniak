@@ -25,6 +25,7 @@
 ## Configuration of .bashrc
 - edit .bashrc: `nano .bashrc`
 - add `export PATH=/home/<your_username>/bin:$PATH`
+- add `ulimit -n 1024`
 
 ## Check Installation and configuration
 The following commands should execute without error or warning:

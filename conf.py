@@ -13,6 +13,8 @@
 # import sys
 # sys.path.insert(0, os.path.abspath('.'))
 import sphinx_rtd_theme
+import recommonmark
+from recommonmark.transform import AutoStructify
 
 # -- Project information -----------------------------------------------------
 
@@ -27,6 +29,7 @@ author = 'Philip May'
 # ones.
 extensions = [
     "sphinx_rtd_theme",
+    "recommonmark",
 ]
 
 # Add any paths that contain templates here, relative to this directory.
@@ -66,7 +69,7 @@ html_css_files = [
 # List of patterns, relative to source directory, that match files and
 # directories to ignore when looking for source files.
 exclude_patterns = [
-    'README.rst',
+    'README.md',
 ]
 
 # Add any extra paths that contain custom files (such as robots.txt or
@@ -82,4 +85,12 @@ html_theme_options = {
 
 source_suffix = {
     '.rst': 'restructuredtext',
+    '.md': 'markdown',
 }
+
+def setup(app):
+    app.add_config_value('recommonmark_config', {
+            'enable_eval_rst': True,
+            'enable_auto_toc_tree': False,
+            }, True)
+    app.add_transform(AutoStructify)

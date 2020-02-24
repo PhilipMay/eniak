@@ -25,3 +25,9 @@
 ## Configuration of .bashrc
 - edit .bashrc: `nano .bashrc`
 - add `export PATH=/home/<your_username>/bin:$PATH`
+
+# Check Installation and configuration
+The following commands should execute without error or warning:
+- `duplicity --version`
+- `duply --version`
+- `gpg --version`

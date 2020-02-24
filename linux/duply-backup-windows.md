@@ -63,3 +63,6 @@ This is how you can add your Cygwin home folder and your Windows pictures folder
 ## Using Backblaze
 - install client: `pip3 install b2sdk`
 - use this as `TARGET`: `b2://[keyID]:[application key]@[B2 bucket name]`
+
+## Start Backup
+- start the first backup: `duply test backup`

@@ -25,6 +25,7 @@
 ## Configuration of .bashrc
 - edit .bashrc: `nano .bashrc`
 - add `export PATH=/home/<your_username>/bin:$PATH`
+- switch language to english (optional): `export LANG='en_US.UTF-8'`
 - add `ulimit -n 1024`
 
 ## Check Installation and configuration

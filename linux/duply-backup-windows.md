@@ -58,3 +58,6 @@ This is how you can add your Cygwin home folder and your Windows pictures folder
 ## Edit gpg-agent.conf
 - edit gpg-agent.conf: `nano .gnupg/gpg-agent.conf`
 - add this line: `allow-loopback-pinentry`
+
+## Using Backblaze
+- install client: `pip3 install b2sdk`

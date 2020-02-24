@@ -37,3 +37,19 @@ The following commands should execute without error or warning:
 - select default values but 4096 Bit
 - select a password for the key
 - copy the public key id to somewhere else for later use -  it is a sring like `7A6E4278E2CAF3FA16240DADC94F3BEAB276F92D`
+
+## Configure Duply
+- create a profile: `duply <profile_name> create`
+- edit config: `nano .duply/<profile_name>/conf`
+  - enter your gpg public key it to `GPG_KEY`
+  - enter the password to `GPG_PW`
+  - enter the `TARGET` like a cloud space or something else
+  - for `SOURCE` just enter `/` - details will be configured in an other file later
+- edit exclude file: `nano .duply/<profile_name>/exclude`
+
+This is how you can add your Cygwin home folder and your Windows pictures folder to backup and ignore evenrything else `- **`
+```
++ /home/<your_username>
++ /cygdrive/c/Users/<your_username>/Pictures
+- **
+```

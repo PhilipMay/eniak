@@ -54,3 +54,7 @@ This is how you can add your Cygwin home folder and your Windows pictures folder
 + /cygdrive/c/Users/<your_username>/Pictures
 - **
 ```
+
+## Edit gpg-agent.conf
+- edit gpg-agent.conf: `nano .gnupg/gpg-agent.conf`
+- add this line: `allow-loopback-pinentry`

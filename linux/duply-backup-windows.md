@@ -26,8 +26,14 @@
 - edit .bashrc: `nano .bashrc`
 - add `export PATH=/home/<your_username>/bin:$PATH`
 
-# Check Installation and configuration
+## Check Installation and configuration
 The following commands should execute without error or warning:
 - `duplicity --version`
 - `duply --version`
 - `gpg --version`
+
+## Generate GPG Key
+- run `gpg --full-gen-key`
+- select default values but 4096 Bit
+- select a password for the key
+- copy the public key id to somewhere else for later use -  it is a sring like `7A6E4278E2CAF3FA16240DADC94F3BEAB276F92D`

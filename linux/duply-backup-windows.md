@@ -10,7 +10,7 @@
   - gcc-core
   - librsync-devel
   - nano
-- update `binutils` to newest (test) version
+- update `binutils` to newest (test) version (2.31.1-1)
 - update pip (optional): `pip3 install --upgrade pip`
 - install duplicity: `pip3 install duplicity`
 

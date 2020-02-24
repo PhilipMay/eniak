@@ -9,6 +9,7 @@
   - python3-devel
   - gcc-core
   - librsync-devel
+  - gnupg2
   - nano
 - update `binutils` to newest (test) version (2.31.1-1)
 - update pip (optional): `pip3 install --upgrade pip`

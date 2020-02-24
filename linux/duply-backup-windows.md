@@ -45,6 +45,7 @@ The following commands should execute without error or warning:
   - enter the password to `GPG_PW`
   - enter the `TARGET` like a cloud space or something else
   - for `SOURCE` just enter `/` - details will be configured in an other file later
+  - remove comment infront of `GPG_OPTS` and write `GPG_OPTS='--pinentry-mode loopback'`
 - edit exclude file: `nano .duply/<profile_name>/exclude`
 
 This is how you can add your Cygwin home folder and your Windows pictures folder to backup and ignore evenrything else `- **`

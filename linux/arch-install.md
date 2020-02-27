@@ -66,10 +66,12 @@ mkswap /mnt/swapfile
 swapon /mnt/swapfile
 ```
 
-```
-#select mirrors
+## Select Mirrors
+``` bash
 nano /etc/pacman.d/mirrorlist
+```
 
+```
 # install packages
 pacstrap /mnt base linux linux-firmware
 pacstrap /mnt nano gnome cryptsetup

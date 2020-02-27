@@ -169,10 +169,12 @@ mkinitcpio -P
 # enable aur
 pacman -S --needed base-devel
 nano /etc/makepkg.conf
+```
 
-# Leneove ThinkPad T495x specific
+## Lenovo ThinkPad T495x specific
 
-# mask this
-# https://wiki.archlinux.org/index.php/Lenovo_ThinkPad_T495s#Backlight
+### Mask this to avoid Boot Error
+also see: <https://wiki.archlinux.org/index.php/Lenovo_ThinkPad_T495s#Backlight>
+``` bash
 systemctl mask systemd-backlight@backlight:acpi_video0.service
 ```

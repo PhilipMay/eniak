@@ -71,12 +71,14 @@ swapon /mnt/swapfile
 nano /etc/pacman.d/mirrorlist
 ```
 
-```
-# install packages
+## Install Packages
+``` bash
 pacstrap /mnt base linux linux-firmware
 pacstrap /mnt nano gnome cryptsetup
 pacstrap /mnt efibootmgr dosfstools gptfdisk
+```
 
+```
 # gen and check fstab
 genfstab -U /mnt >> /mnt/etc/fstab
 less /mnt/etc/fstab

@@ -9,6 +9,11 @@ List enabled Services
 
 ``systemctl list-unit-files --state=enabled``
 
+List running Services
+~~~~~~~~~~~~~~~~~~~~~
+
+``systemctl list-units --type=service``
+
 User Management
 ---------------
 

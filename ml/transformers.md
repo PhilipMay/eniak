@@ -11,7 +11,7 @@
   - [FARM - Doc](https://farm.deepset.ai/)
   - [FARM - GitHub](https://github.com/deepset-ai/FARM)
 - Models  
-  - bert-base-german-cased [deepset.ai - German BERT](https://deepset.ai/german-bert)
+  - [bert-base-german-cased](https://huggingface.co/bert-base-german-cased) - [deepset.ai - German BERT](https://deepset.ai/german-bert)
   - [dbmdz/bert-base-german-cased](https://huggingface.co/dbmdz/bert-base-german-cased)
 - [Comparing Transformer Tokenizers](https://towardsdatascience.com/comparing-transformer-tokenizers-686307856955)
 

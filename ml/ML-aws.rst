@@ -75,14 +75,9 @@ Python API
 Services
 --------
 
-There are some services but just a couple with GPU support: https://aws.amazon.com/sagemaker/pricing/instance-types
-
-- p3.2xlarge - 1 x V100 GPU - 3,823 USD pro Stunde
-- p3.8xlarge - 4 x V100 GPU - 15,292 USD pro Stunde
-- p3.16xlarge - 8 x V100 GPU - 30,584 USD pro Stunde
-- p2.xlarge - 1 x K80 GPU - 1,326 USD pro Stunde
-- p2.8xlarge - 8 x K80 GPU - 10,608 USD pro Stunde
-- p2.16xlarge - 16 x K80 GPU - 21,216 USD pro Stunde
+- P3 (V100 GPU): https://aws.amazon.com/de/ec2/instance-types/p3/
+- P2 (K80 GPU): https://aws.amazon.com/de/ec2/instance-types/p2/
+- G3 (M60 GPU): https://aws.amazon.com/de/ec2/instance-types/g3/
 
 Performance Experiment with EC2 and LightGBM
 --------------------------------------------

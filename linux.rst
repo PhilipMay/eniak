@@ -1,5 +1,5 @@
-Linux
-=====
+Linux and Server
+================
 
 .. toctree::
    :glob:

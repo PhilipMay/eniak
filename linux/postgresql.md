@@ -28,5 +28,5 @@
 - delete role: `DROP ROLE <role_name>;`
 
 ## Links
-- alter databases: https://www.postgresql.org/docs/10/sql-alterdatabase.html
-- backup: https://www.linode.com/docs/databases/postgresql/how-to-back-up-your-postgresql-database/
+- alter databases: <https://www.postgresql.org/docs/10/sql-alterdatabase.html>
+- backup: <https://www.linode.com/docs/databases/postgresql/how-to-back-up-your-postgresql-database/>

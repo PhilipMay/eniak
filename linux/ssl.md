@@ -2,8 +2,8 @@
 
 ## Create self-signed SSL Certificate
 - also see:
-  - https://www.akadia.com/services/ssh_test_certificate.html
-  - https://devcenter.heroku.com/articles/ssl-certificate-self#generate-ssl-certificate
+  - <https://www.akadia.com/services/ssh_test_certificate.html>
+  - <https://devcenter.heroku.com/articles/ssl-certificate-self#generate-ssl-certificate>
 
 ``` bash
 # generate private key

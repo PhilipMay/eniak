@@ -1,17 +1,22 @@
 # PostgreSQL
 
 ## Config Files
-- general config: `/etc/postgresql/10/main/postgresql.conf`
+- general config (Ubuntu): `/etc/postgresql/10/main/postgresql.conf`
+- general config (Archlinux): `/var/lib/postgres/data/postgresql.conf `
   - to allow access from everywhere: `listen_addresses = '*'`
-- who can access what from where and how: `/etc/postgresql/10/main/pg_hba.conf`
+- who can access what from where and how (Ubuntu): `/etc/postgresql/10/main/pg_hba.conf`
+- who can access what from where and how: (archlinux)`/var/lib/postgres/data/pg_hba.conf`
   - example: `host    <database>        <user>        0.0.0.0/0               md5`
+  - example: `hostssl <database>        <user>        0.0.0.0/0               md5`
 
 ## Commands (prompt)
+- change the user from root to postgres: `su -l postgres`
+- init the db: `initdb --locale=en_US.UTF-8 -E UTF8 -D /var/lib/postgres/data`
 - enter db tool psql: `psql`
 - create user: `createuser --interactive`
 - create database
   - `createdb <db_name>`
-  - create and set owner: `createdb <db_name> -o <role_name>`
+  - create and set owner: `createdb <db_name> -O <role_name>`
 - restart the db: `systemctl restart postgresql.service`
 
 ## Commands (psql)

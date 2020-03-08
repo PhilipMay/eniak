@@ -4,7 +4,7 @@
 - connection string: `postgresql://<user>:<password>@<url>/<database>`
 - connection string with SSL verification: `postgresql://<user>:<password>@<url>/<database>?sslmode=verify-full`
 
-For SSL verification the root-cart must be placed in `.postgresql/root.crt` (also see: <https://www.postgresql.org/docs/10/libpq-ssl.html#LIBPQ-SSL-PROTECTION>). On Microsoft Windows the file is named `%APPDATA%\postgresql\root.crt.`
+For SSL verification the root-cart must be placed in `.postgresql/root.crt` (also see: <https://www.postgresql.org/docs/10/libpq-ssl.html#LIBPQ-SSL-PROTECTION>). On Microsoft Windows the file is named `%APPDATA%\postgresql\root.crt.` The location of the root certificate file and the CRL can be changed by setting the connection parameters `sslrootcert` and `sslcrl` or the environment variables `PGSSLROOTCERT` and `PGSSLCRL`.
 
 ## Command-Line Interface
 - Show all studies in database: `optuna studies --storage <storage>`

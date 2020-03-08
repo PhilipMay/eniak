@@ -1,7 +1,8 @@
 # Optuna
 
-## Connect to PostgeSQL Database
-- connection string: `postgresql://<user>:<password>@<url>/<database>`
+## Connection String for PostgeSQL Database
+- basic: `postgresql://<user>:<password>@<url>/<database>`
+- turn on ssl: `postgresql://<user>:<password>@<url>/<database>?sslmode=require`
 - connection string with SSL verification: `postgresql://<user>:<password>@<url>/<database>?sslmode=verify-full`
 
 For SSL verification the root-cart must be placed in `.postgresql/root.crt` (also see: <https://www.postgresql.org/docs/10/libpq-ssl.html#LIBPQ-SSL-PROTECTION>). On Microsoft Windows the file is named `%APPDATA%\postgresql\root.crt.` 

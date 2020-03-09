@@ -29,6 +29,13 @@ Activate and deactivate Environment
 see also:
 https://docs.conda.io/projects/conda/en/latest/glossary.html?highlight=deactivate#activate-deactivate-environment
 
+Update Conda
+------------
+
+.. code:: bash
+
+ conda update -n base -c defaults conda
+
 Update all Packages
 -------------------
 

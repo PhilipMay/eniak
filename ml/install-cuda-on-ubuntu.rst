@@ -1,7 +1,9 @@
 Install CUDA on Ubuntu
 ======================
 
-CUDA intsallieren - für Tensorflow 1.10
+Just see here: https://www.tensorflow.org/install/gpu#ubuntu_1804_cuda_101
+
+CUDA installieren - für Tensorflow 1.10
 ---------------------------------------
 
 -  system update

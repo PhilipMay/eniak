@@ -13,4 +13,4 @@ The location of the root certificate file and the CRL can be changed by setting 
 - Show all studies in database: `optuna studies --storage <storage>`
 - Delete a study: `optuna delete-study --study-name <study-name> --storage <storage>`
 - Start dashboard that is updated in realtime: `optuna dashboard --study <study_name> --storage <storage>`
-- also see: https://optuna.readthedocs.io/en/latest/tutorial/cli.html
+- also see: <https://optuna.readthedocs.io/en/latest/tutorial/cli.html>

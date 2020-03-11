@@ -26,6 +26,9 @@ apt autoremove   # Removes any old packages that are no longer needed
 ### Remove Package with dependencies
 `apt-get remove --auto-remove <package_name>`
 
+### Clean Package Cache
+`apt-get clean`
+
 ## Check Ubuntu Version
 `lsb_release -a`
 

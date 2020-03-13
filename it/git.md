@@ -62,6 +62,11 @@ You can change your last commit message by this command:
 git commit --amend
 ```
 
+## List tracked Repositories
+``` bash
+git remote -v
+```
+
 ## Updates eines Forks mergen
 Zunächst muss das Original Repository hinzugefügt werden:
 ``` bash

@@ -56,6 +56,13 @@ works from any subdirectory):
 git reset --hard HEAD
 ```
 
+## Revert pushed commit
+``` bash
+git reset --hard 'xxxxx'
+git clean -f -d
+git push -f
+```
+
 ## Change last Commit
 You can change your last commit message by this command:
 ``` bash
@@ -81,6 +88,10 @@ git checkout master
 
 # und dann mergen:
 git merge upstream/master
+
+# If there were any new commits, rebase your development branch
+git checkout <dev_bramch>
+git rebase master
 ```
 
 ## Squash: Clean dirty commit history

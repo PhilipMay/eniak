@@ -90,7 +90,7 @@ git checkout master
 git merge upstream/master
 
 # If there were any new commits, rebase your development branch
-git checkout <dev_bramch>
+git checkout <dev_branch>
 git rebase master
 ```
 

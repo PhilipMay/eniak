@@ -63,3 +63,10 @@ scp -i ~/.ssh/<key_file>.pem -o "ProxyCommand=nc -X connect -x <proxy_ip>:<proxy
   /sys/class/graphics/fbcon/rotate_all`
 - to the left: `echo 3 | sudo tee
   /sys/class/graphics/fbcon/rotate_all`
+  
+## Administration
+
+### Reboot with Timer (5 Minutes) and Message
+``` bash
+shutdown -r +5 "<message>"
+```

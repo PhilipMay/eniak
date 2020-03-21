@@ -14,7 +14,7 @@
   <https://www.sphinx-doc.org/en/master/usage/restructuredtext/directives.html#table-of-contents>
 - Markdown: <https://commonmark.org/help/>
 
-# Convert reStructuredText to Markdown
+## Convert reStructuredText to Markdown
 ``` bash
 pandoc -s -t commonmark -o <target>.md <source>.rst
 ```

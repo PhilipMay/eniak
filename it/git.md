@@ -89,6 +89,8 @@ git checkout master
 # und dann mergen:
 git merge upstream/master
 
+git push
+
 # If there were any new commits, rebase your development branch
 git checkout <dev_bramch>
 git rebase master

@@ -19,3 +19,9 @@ openssl req -new -key server.key -out server.csr
 # generate self-signed certificate
 openssl x509 -req -days 365 -in server.csr -signkey server.key -out server.crt
 ```
+
+## Create Client Certifcate that can be used by Firefox and other Browsers
+
+``` bash
+openssl pkcs12 -export -in client.crt -inkey client.key -out client.p12
+``` 

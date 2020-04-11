@@ -15,3 +15,6 @@
 
 ## Learn
 - PyTorch Examples: https://github.com/pytorch/examples
+- Books
+  - Deep Learning with PyTorch https://www.manning.com/books/deep-learning-with-pytorch
+  - Programming PyTorch for Deep Learning: https://www.oreilly.com/library/view/programming-pytorch-for/9781492045342/

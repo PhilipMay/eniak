@@ -5,7 +5,6 @@
   - Get Started / Installation: https://pytorch.org/get-started/locally/
   - Tutorials: https://pytorch.org/tutorials/
   - Docs: https://pytorch.org/docs/stable/index.html
-- Community / Communication
   - Message Board: https://discuss.pytorch.org/
 - Ignite - Ignite is a high-level library to help with training neural networks in PyTorch.
   - GitHub: https://github.com/pytorch/ignite
@@ -13,3 +12,6 @@
 - Detectron2 - Detectron2 is Facebook AI Research's next generation software system that implements state-of-the-art object detection algorithms.
   - GitHub: https://github.com/facebookresearch/detectron2
   - Doc: https://detectron2.readthedocs.io/index.html
+
+## Learn
+- PyTorch Examples: https://github.com/pytorch/examples

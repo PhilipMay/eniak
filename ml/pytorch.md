@@ -7,4 +7,6 @@
   - Docs: https://pytorch.org/docs/stable/index.html
 - Community / Communication
   - Message Board: https://discuss.pytorch.org/
-
+- Detectron2
+  - Detectron2 @ GitHub: https://github.com/facebookresearch/detectron2
+  - Detectron2 Doc: https://detectron2.readthedocs.io/index.html

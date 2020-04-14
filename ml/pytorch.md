@@ -30,6 +30,49 @@
     - 2017 Train/Val annotations [241MB]
     - also see: <https://github.com/facebookresearch/detectron2/tree/master/datasets#expected-dataset-structure-for-coco-instancekeypoint-detection>
     
+### C4 Net
+```
+GeneralizedRCNN(
+  (backbone): ResNet(
+    (stem): BasicStem(
+      (conv1): Conv2d(
+        3, 64, kernel_size=(7, 7), stride=(2, 2), padding=(3, 3), bias=False
+        (norm): FrozenBatchNorm2d(num_features=64, eps=1e-05)
+      )
+    )
+    (res2): Sequential(
+    [...]
+    (res3): Sequential(
+    [...]
+    (res4): Sequential(
+    [...]
+  )
+  (proposal_generator): RPN(
+    (anchor_generator): DefaultAnchorGenerator(
+      (cell_anchors): BufferList()
+    )
+    (rpn_head): StandardRPNHead(
+      (conv): Conv2d(1024, 1024, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+      (objectness_logits): Conv2d(1024, 15, kernel_size=(1, 1), stride=(1, 1))
+      (anchor_deltas): Conv2d(1024, 60, kernel_size=(1, 1), stride=(1, 1))
+    )
+  )
+  (roi_heads): Res5ROIHeads(
+    (pooler): ROIPooler(
+      (level_poolers): ModuleList(
+        (0): ROIAlign(output_size=(14, 14), spatial_scale=0.0625, sampling_ratio=0, aligned=True)
+      )
+    )
+    (res5): Sequential(
+    [...]
+    (box_predictor): FastRCNNOutputLayers(
+      (cls_score): Linear(in_features=2048, out_features=81, bias=True)
+      (bbox_pred): Linear(in_features=2048, out_features=320, bias=True)
+    )
+  )
+)
+```
+    
 ### Example for Validation Result
 ```
 [04/12 17:27:26] d2.evaluation.evaluator INFO: Total inference time: 0:12:10.168191 (0.146180 s / img per device, on 1 devices)

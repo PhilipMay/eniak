@@ -9,8 +9,8 @@ Create new Conda Environment
    # create environment
    conda create --name <new_env_name>
 
-   # create environment with python 3.6
-   conda create --name <new_env_name> python=3.6
+   # create environment with python 3.7
+   conda create --name <new_env_name> python=3.7
 
 also see:
 https://docs.conda.io/projects/conda/en/latest/commands/create.html

@@ -390,7 +390,6 @@ ________________________________________________________________________________
 
 ## EfficientNetB0
 ``` python
-# 224 x 224
 eff_b0 = tf.keras.applications.EfficientNetB0(include_top=True, weights=None)
 eff_b0.summary()
 ```

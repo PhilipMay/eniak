@@ -229,6 +229,15 @@ GeneralizedRCNN(
 [04/25 07:12:54 d2.modeling.backbone.resnet]: build_resnet_backbone output_shape: {
 'res4': ShapeSpec(channels=1024, height=None, width=None, stride=16)}
 ```
+
+```
+[04/25 16:33:42 d2.modeling.proposal_generator.rpn]: RPN.__init__ input_shape: {
+'p2': ShapeSpec(channels=256, height=None, width=None, stride=4), 
+'p3': ShapeSpec(channels=256, height=None, width=None, stride=8), 
+'p4': ShapeSpec(channels=256, height=None, width=None, stride=16), 
+'p5': ShapeSpec(channels=256, height=None, width=None, stride=32), 
+'p6': ShapeSpec(channels=256, height=None, width=None, stride=64)}
+```
  
 ## Example for Validation Result
 ```

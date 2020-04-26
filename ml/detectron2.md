@@ -238,6 +238,43 @@ GeneralizedRCNN(
 'p5': ShapeSpec(channels=256, height=None, width=None, stride=32), 
 'p6': ShapeSpec(channels=256, height=None, width=None, stride=64)}
 ```
+
+```
+### block.size input torch.Size([2, 3, 704, 1184])
+### block.size stem torch.Size([2, 48, 352, 592])
+### block.size 0 - torch.Size([2, 24, 352, 592])
+### block.size 1 - torch.Size([2, 24, 352, 592])
+### block.size 2 - torch.Size([2, 32, 176, 296])
+### block.size 3 - torch.Size([2, 32, 176, 296])
+### block.size 4 - torch.Size([2, 32, 176, 296])
+### block.size 5 - torch.Size([2, 32, 176, 296])
+### block.size 6 - torch.Size([2, 56, 88, 148])
+### block.size 7 - torch.Size([2, 56, 88, 148])
+### block.size 8 - torch.Size([2, 56, 88, 148])
+### block.size 9 - torch.Size([2, 56, 88, 148])
+### block.size 10 - torch.Size([2, 112, 44, 74])
+### block.size 11 - torch.Size([2, 112, 44, 74])
+### block.size 12 - torch.Size([2, 112, 44, 74])
+### block.size 13 - torch.Size([2, 112, 44, 74])
+### block.size 14 - torch.Size([2, 112, 44, 74])
+### block.size 15 - torch.Size([2, 112, 44, 74])
+### block.size 16 - torch.Size([2, 160, 44, 74])
+### block.size 17 - torch.Size([2, 160, 44, 74])
+### block.size 18 - torch.Size([2, 160, 44, 74])
+### block.size 19 - torch.Size([2, 160, 44, 74])
+### block.size 20 - torch.Size([2, 160, 44, 74])
+### block.size 21 - torch.Size([2, 160, 44, 74])
+### block.size 22 - torch.Size([2, 272, 22, 37])
+### block.size 23 - torch.Size([2, 272, 22, 37])
+### block.size 24 - torch.Size([2, 272, 22, 37])
+### block.size 25 - torch.Size([2, 272, 22, 37])
+### block.size 26 - torch.Size([2, 272, 22, 37])
+### block.size 27 - torch.Size([2, 272, 22, 37])
+### block.size 28 - torch.Size([2, 272, 22, 37])
+### block.size 29 - torch.Size([2, 272, 22, 37])
+### block.size 30 - torch.Size([2, 448, 22, 37])
+### block.size 31 - torch.Size([2, 448, 22, 37])
+```
  
 ## Example for Validation Result
 ```

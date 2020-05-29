@@ -10,6 +10,8 @@
 - FARM - Framework for Adapting Representation Models
   - [FARM - Doc](https://farm.deepset.ai/)
   - [FARM - GitHub](https://github.com/deepset-ai/FARM)
+- Tokenization
+  - Subtoken Tokenization: <https://github.com/huggingface/transformers/blob/master/notebooks/01-training-tokenizers.ipynb>
 - Models  
   - [bert-base-german-cased](https://huggingface.co/bert-base-german-cased) - [deepset.ai - German BERT](https://deepset.ai/german-bert)
   - [dbmdz/bert-base-german-cased](https://huggingface.co/dbmdz/bert-base-german-cased)

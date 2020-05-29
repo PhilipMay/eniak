@@ -11,6 +11,8 @@
   - [FARM - Doc](https://farm.deepset.ai/)
   - [FARM - GitHub](https://github.com/deepset-ai/FARM)
   - [FARM Datasets](https://github.com/deepset-ai/FARM/blob/master/farm/data_handler/utils.py#L22)
+  - Important API Links
+    - [TextClassificationProcessor](https://farm.deepset.ai/api/data_handling.html?highlight=textclassificationprocessor#farm.data_handler.processor.TextClassificationProcessor)
 - Tokenization
   - Subtoken Tokenization: <https://github.com/huggingface/transformers/blob/master/notebooks/01-training-tokenizers.ipynb>
 - Models  

@@ -12,6 +12,7 @@
   <https://www.sphinx-doc.org/en/master/usage/restructuredtext/basics.html>
 - TOC:
   <https://www.sphinx-doc.org/en/master/usage/restructuredtext/directives.html#table-of-contents>
+- [Cross-referencing Python objects](https://www.sphinx-doc.org/en/master/usage/restructuredtext/domains.html#python-roles)
 - Markdown: <https://commonmark.org/help/>
 
 ## Convert reStructuredText to Markdown

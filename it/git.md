@@ -32,6 +32,37 @@ git branch -d <the_local_branch>
 git push origin --delete <the_remote_branch>
 ```
 
+## Stash Usage
+
+### Stash the Changes
+```bash
+git stash
+```
+
+### Reapply Stash
+This applies newest (last) stash
+```bash
+git stash apply
+```
+
+This applies a selected stash
+```bash
+git stash apply stash@{2}
+```
+
+### List stashed Changes
+```bash
+git stash list
+```
+
+Example:
+```bash
+$ git stash list
+stash@{0}: WIP on master: 049d078 Create index file
+stash@{1}: WIP on master: c264051 Revert "Add file_size"
+stash@{2}: WIP on master: 21d80a5 Add number to log
+```
+
 ## Show History of last Ref Updates
 ``` bash
 git reflog

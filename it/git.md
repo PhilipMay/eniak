@@ -32,6 +32,12 @@ git branch -d <the_local_branch>
 git push origin --delete <the_remote_branch>
 ```
 
+## Empty Commit to trigger CI
+```bash
+git commit --allow-empty -m "empty commit to trigger CI"
+git push
+```
+
 ## Stash Usage
 
 ### Stash the Changes

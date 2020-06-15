@@ -60,11 +60,13 @@ mount /dev/nvme0n1p1 /mnt/boot
 see also: <https://wiki.archlinux.org/index.php/Swap#Swap_file_creation>
 - TODO: Link zu Ubuntu Seite
 ``` bash
-fallocate -l 20G /mnt/swapfile
+dd if=/dev/zero of=/swapfile bs=1M count=20480 status=progress
 chmod 600 /mnt/swapfile
 mkswap /mnt/swapfile
 swapon /mnt/swapfile
 ```
+
+To resume from swap see: https://wiki.archlinux.org/index.php/Power_management/Suspend_and_hibernate#Hibernation_into_swap_file
 
 ## Select Mirrors
 ``` bash

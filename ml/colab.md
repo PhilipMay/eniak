@@ -11,3 +11,10 @@ files.download('<file_to_download>')
 from google.colab import files
 uploaded = files.upload()
 ```
+
+## Mount Google Drive
+```python
+from google.colab import drive
+drive.mount('/gdrive')
+!ls -la /gdrive
+```

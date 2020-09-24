@@ -23,6 +23,4 @@ Python Pakete erstellen (PyPI)
       https://github.com/tensorflow/tensorflow/blob/6729cd7d1c07e547298fa2a02d1e36390dc62f0a/tensorflow/tools/pip_package/setup.py
    -  NumPy: https://github.com/numpy/numpy/blob/master/setup.py
    -  pandas: https://github.com/pandas-dev/pandas/blob/master/setup.py
-
-##mKurzanleitung pip Paket erstellen und zu PyPI hochladen -
-``python3 setup.py sdist bdist_wheel`` - ``twine upload dist/*``
+- Kurzanleitung pip Paket erstellen und zu PyPI hochladen: ``python3 setup.py sdist bdist_wheel`` - ``twine upload dist/*``

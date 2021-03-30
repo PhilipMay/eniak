@@ -33,7 +33,3 @@ contact me:
 
 ## Publications
 - [Improved Image Augmentation for Convolutional Neural Networks by Copyout and CopyPairing](https://arxiv.org/abs/1909.00390)
-
-## Test
-- trigger build 01
-
